@@ -29,27 +29,12 @@ I am learning to develop web pages
      </body>
     </html>
 ```   
-| ```html <!DOCTYPE html>``` | - It is simply meant to act as links to a set of rules tht the HTML page had to follow.  - In current time, rarerly anyone cares about it however it is recommended to start with the DOCTYPE. |
-|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                            |                                                                                                                                                                                                |
-|                            |                                                                                                                                                                                                |
-|                            |                                                                                                                                                                                                |
-
-```html <!DOCTYPE html>```
-It is simply meant to act as links to a set of rules tht the HTML page had to follow. In current time, rarerly anyone cares about it however it is recommended to start with the DOCTYPE.
-
-```html<html></html>```
-This element simply wraps all the content on the entire page, and is sometimes known as the root element.
-
-```html<head></head>``` 
-This element acts as a container for all the stuff (keywords, page description,css, character set declarations and more) you want to include on the HTML page, that isn't the content you are showing to your page's viewers.
-
-```html<title></title>```
-his element defines the title of your page, that appears in the browser tab and is used to describe the page when you bookmark/favorite it.
-
- ```html<body></body>```
-This element contains all the content that is displayed to web users such as text, images, videos or games.
-
+| ```<!DOCTYPE html>``` | - It is simply meant to act as links to a set of rules tht the HTML page had to follow.  - In current time, rarerly anyone cares about it however it is recommended to start with the DOCTYPE.                                |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ``````                | - This element simply wraps all the content on the entire page.  - It is sometimes known as the root element.                                                                                                                 |
+|                       | This element acts as a container for all the stuff (keywords, page description,css, character set declarations and more) you want to include on the HTML page, that isn't the content you are showing to your page's viewers. |
+|                       | This element defines the title of your page, that appears in the browser tab and is used to describe the page when you bookmark/favorite it.                                                                                  |
+|                       | This element contains all the content that is displayed to web users such as text, images, videos or games.                                                                                                                   |
 ## What is HTML?
 
 ## HTML Elements
