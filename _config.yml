@@ -3,10 +3,10 @@ repository: tomjoht/documentation-theme-jekyll
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Course Name
+topnav_title: Basics of Web Development
 # this appears on the top navigation bar next to the home button
 
-site_title: Course title
+site_title: Basics of Web Development
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Deepak KC
@@ -24,7 +24,7 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Course Name 
+feedback_subject_line: Basics of Web Development 
 
 feedback_email: deepak.curator@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
