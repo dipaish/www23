@@ -44,6 +44,30 @@ his element defines the title of your page, that appears in the browser tab and 
  ```html<body></body>```
 This element contains all the content that is displayed to web users such as text, images, videos or games.
 
-### References: 
-- 
+## What is HTML?
+
+## HTML Elements
+
+## Whitespaces in HTML
+
+## Using Special Characters in HTML
+
+## Comments in HTML
+
+## Text formatting in HTML
+
+## Images in HTML
+
+### Example 1: Image and Content
+
+### Example 2: Side by Side Images
+
+### Example 3: Stacking Images
+
+## Exercise 1: Text Formatting and page content
+
+## References: 
+- Mdn Web Docs 
+
+>> To learn more
 
