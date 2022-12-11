@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: HTML Basics
-      external_url: index
+      url: /index
     - title: GitHub Pages
       url: /gpages
     - title: CSS
