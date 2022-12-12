@@ -1,4 +1,18 @@
 # Basics of HTML
+
+## Tools for web development
+You need atleast some of the following tools to get started with web development. Depending on your development activity (frontend, backed or full stack), you will need some of the following tools. You will need at the minumm code or text editor and a browser.
+
+- **Code or Text editors:** Sublime Text, Notepad++, ***Visual Studio Code***
+- **Front-End Frameworks:**  Bootstrap, Semantic-UI, Material UI
+- **Web Application Frameworks:**  Django, Angular, ReactJS
+- **Package Managers:**  NPM, Yarn, Material UI
+- **Git Clients:**  Github, Github Desktop
+- **Web Design & Prototyping Tools:**  Figma, Protooie, Framer
+- **Image Editing:**  Adobe Photoshop, Gimp
+![Development Environment](assets/images/devenvironment.png)
+
+
 ## What is HTML?
 **Hypertext Markup Language (HTML)** is the standard markup language for documents that are designed to be displayed in a web browser. HTML is not a programming language. It is a markup language that tells browser how to structure a web page. HTML is made up of sereis of **elements** such as a piece of text, a pragraph, , list, table, links or forms.
 
