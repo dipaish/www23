@@ -30,9 +30,9 @@ I am learning to develop web pages
     </html>
 ```   
 
-| First Header  | Second Header |
+| Tag  | Description |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| ``` <!DOCTYPE html> ``` | It is simply meant to act as links to a set of rules tht the HTML page had to follow. In current time, rarerly anyone cares about it however it is recommended to start with the DOCTYPE.  |
 | Content Cell  | Content Cell  |
 
 
