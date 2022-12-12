@@ -60,7 +60,6 @@ Example:
 - **Inline Elements:**
 These elements are contained within the block level elements that is it does not cause a new line to appear in the document.
 Example:
-
 ```html   
       <em>element 1</em> <em>element 2</em> <em>element 3</em>
 ```
@@ -78,19 +77,88 @@ The whitespace includes space characters as well as line breaks. You can have lo
 ```
 
 ## Using Special Characters in HTML
-** <, > , " and & ** are special characters which are parts of HTML syntax, Therfore, when you need to use them in your html code you need to use the character equivalent as in the table below, to not have it interpreted as code.
+```<, > , " and &``` are special characters which are parts of HTML syntax, Therfore, when you need to use them in your html code you need to use the character equivalent as in the table below, to not have it interpreted as code.
 
 | HTML Character  | Equivalent Character Reference |
 | ------------- | ------------- |
-| < | &lt; |
-| >	| &gt; |
-| " | &quot;|
-| '	|&apos; |
-| &	| &amp; |
+|``` < ```| ``` &lt; ``` |
+| ``` > ```	| ``` &gt; ``` |
+| ``` " ``` | ``` &quot; ```|
+|``` ' ```	|``` &apos; ``` |
+|``` & ```	| ``` &amp; ``` |
 
 ## Comments in HTML
 
+It is a good idea to write comments whereever applicable. Comments are ignored by the browser and are invisible to the user.
+***To type comment in HTML:***
+```html 
+ <!-- comment asdsad asdasda -->
+ ```
+
 ## Text formatting in HTML
+
+- HTML is used to structure text within a page by adding headings, paragraphs, emphasizing words and more.
+
+- The structured content provides a better and enjoyable reading experience.
+
+- Headings are to be wrapped in a heading element ```<h1>```. There are 6 level of heading elements ```<h1>, <h2>, <h3>, <h4>,<h5> & <h6>```.
+
+- Paragraphs are wrapped in a ```<p>```
+
+```html 
+<h1>My heading</h1>
+<p>This is a paragraph.</p>
+ ```
+***Example of a Structure***
+![Example of a strucutre](assets/images/structure1.png)
+
+### Lists: Unordered
+```html 
+<ul>
+<li>Deepak</li>
+<li>Markku</li>
+<li>Pekka</li>
+<li>Juha</li>
+</ul>
+```
+
+### Lists: Ordered
+```html 
+<ol>
+<li>Deepak</li>
+<li>Markku</li>
+<li>Pekka</li>
+<li>Juha</li>
+</ol>
+```
+
+### Lists: Nested
+```html 
+<ol>
+<li>Chapter 1</li>
+<li>Chapter 2</li>
+<li>Chapter 3</li>
+<li>Chapter 4
+<ul>
+<li>Chapter 4.1</li>
+<li>Chapter 4.2</li>
+</ul>
+</li>
+</ol>
+``` 
+### Emphasizing Certain Words
+
+It is sometimes needed to emphasize certain words within your text. HTML provides several semantic elements to mark up textual content with different effects.
+
+**Emphasis:** ``` <em>...</em> ``` This is <em> emphasized text.</em>
+
+**Bold:** ``` <b>...</b> ``` This is <b>bold text.</b>
+
+**Strong:** ``` <strong>...</strong> ``` This is <strong> strong text.</strong>
+
+**Italic:** ``` <i>...</i> ``` This is <i>italicized text </i>.
+
+**Underline:** ``` <u>...</u> ``` This is <u>underlined text.</u>
 
 ## Images in HTML
 
