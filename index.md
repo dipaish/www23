@@ -192,7 +192,7 @@ The ***title*** attribute in image provides a tooltip on mouse over.It is howeve
   <img src="images/img1.jpg" alt="info about image" title="more info">
 ``` 
 ### Image Captions in HTML5
-You can use <figure> and <figurecatpion> elements.
+You can use ```<figure> and <figurecatpion>``` elements.
 ```html 
     <figure>
       <img src="images/img2.jpg" alt="image 2;">
