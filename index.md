@@ -162,6 +162,53 @@ It is sometimes needed to emphasize certain words within your text. HTML provide
 
 ## Images in HTML
 
+The img element and its src attribute are used to embed an image in HTML.
+```html 
+<img src="/images/myimage.jpg" alt="" width="100“ height="150"> 
+<img src="https://raw.githubusercontent.com/dipaish/www2020/master/docs/images/header.png " width="680px">
+<img src="images/missing.jpg" alt="Photo info"/>
+<img src="images/missing.jpg" alt="Photo info" height="200px" width="200px"/>
+```  
+**Image Sizes**
+You may use width and height attribute to size image however it is recommended to use photo editing software to determine the size of images to produce a better result. Resizing images properly will download faster when users view your pages.
+
+***Image size can also be specified as a windows percentage.***
+
+```html 
+<img src="https://raw.githubusercontent.com/dipaish/www2020/master/docs/images/header.png " alt="Photo info" width="30%"/>
+```
+
+**Alternative Text**
+The **alt** attribute is a textual description of the image that is displayed to the user when am image is not found or takes a long time to render due to slow internet connection. It is also handy for visually impaired user who is using a screen reader to read the web.
+
+```html 
+<img src="images/img1.jpg" alt="info about image">
+```
+
+**Image Titles**
+The ***title*** attribute in image provides a tooltip on mouse over.It is however not recommended due to various accessibility problems.
+
+```html 
+  <img src="images/img1.jpg" alt="info about image" title="more info">
+``` 
+### Image Captions in HTML5
+You can use <figure> and <figurecatpion> elements.
+```html 
+    <figure>
+      <img src="images/img2.jpg" alt="image 2;">
+    <figcaption>Image caption</figcaption>
+    </figure>
+```
+***Understanding Image URLS & Important Notes***
+- The **src** attribute in img tag locates the image file
+- There are two types of URLs: **Absolute & Relative**
+    - **Absolute:** The exact location of the image that normally begings with http://....
+    - **Relative:** To better organize, images are stored within a specific folder. In such cases, you can use relative location such as images/image1.jpg
+- Search engines also read image filenames and count them towards SEO. Therefore, it is wise to use a descriptive image filename; apple.jpg is better than img135.png.
+- Make sure, you own copyrights before displaying an image in your webpage.
+- Images garner attention and draw emotion therfore use images wisely as people pay more attention to image than text.
+- Try to limit larger size images as much as possible so that they are not slowing down your website.
+
 ### Example 1: Image and Content
 
 ### Example 2: Side by Side Images
