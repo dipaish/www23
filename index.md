@@ -83,6 +83,10 @@ The whitespace includes space characters as well as line breaks. You can have lo
 | HTML Character  | Equivalent Character Reference |
 | ------------- | ------------- |
 | < | &lt; |
+| >	| &gt; |
+| " | &quot;|
+| '	|&apos; |
+| &	| &amp; |
 
 ## Comments in HTML
 
