@@ -1,4 +1,3 @@
-
 # Basics of HTML
 ## What is HTML?
 **Hypertext Markup Language (HTML)** is the standard markup language for documents that are designed to be displayed in a web browser. HTML is not a programming language. It is a markup language that tells browser how to structure a web page. HTML is made up of sereis of **elements** such as a piece of text, a pragraph, , list, table, links or forms.
@@ -36,8 +35,6 @@ I am learning to develop web pages
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
-
-## What is HTML?
 
 ## HTML Elements
 
