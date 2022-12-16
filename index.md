@@ -252,7 +252,7 @@ The ***title*** attribute in image provides a tooltip on mouse over.It is howeve
 ```html 
   <img src="images/img1.jpg" alt="info about image" title="more info">
 ``` 
-### Image Captions in HTML5
+**Image Captions in HTML5**
 You can use ```<figure> and <figurecatpion>``` elements.
 ```html 
     <figure>
@@ -281,6 +281,63 @@ You can use ```<figure> and <figurecatpion>``` elements.
 
 ### Head & body
 
+## Debugging HTML 
+It is very likely that you commit errors when coding. Some of your code won't work at all or works a bit differently than what you have expected. HTML is not as complicated as other programming languages like Python or Php.The way browsers parse html document is more permissive than other languages. For instance, missing a semicolon in some programming language will mess up thing whereas in html, even if you write the elements incorrectly its going to product certain output.
+
+When something is wrong in code, there are mainly two types of errors ***Syntax errors & Logic Errors*** . 
+
+  - **Syntax error** may cause the program not to run and can be easily fixed by as long as you are familiar with the language's syntax and know what the error messages mean.
+  - **Logic Errors** is when the sytax is correct but the program is not running as intended. It is difficult to fix this kind of errors.
+
+>> Note: HTML is parsed permissively because when the web was first created, it was decided that allowing people to get their content published was more important than making sure the syntax was absolutely correct. The web would probably not be as popular as it is today, if it had been more strict from the very beginning.
+
+## Inspect Element
+
+
+## HTML Validation
+The HTML codebeow includes errors.As in  this case, since the html code is not very long, one can search through the lines and correct errors. **But how to check errors when the HTML document is complex and very long?**
+
+- The best option is to use **Markup Validation Services** which is created and maintained by **W3C** (the organization that looks after the specifications that define HTML, CSS, and other web technologies.)
+- The **HTML validator** will take your HTML document as an input, process it and provides you a report that tells what is wrong with your HTML.
+- You have 3 options to validate your html document 
+  - **Validate by URL**: use the link of your page that you want to validate. 
+  - **Validate by File Upload**: Upload the html file that you want validate. 
+  - **Validate by Direct Input**: Directly input the html code that you want to validate. 
+![HTML Validator ](assets/images/validator.png)
+***Lets look into the following html code and try to validate the document by Direct Input***
+- Step 1: Get to Validator Page: https://validator.w3.org/
+- Step 2: Select Validate by Direct Input
+- Step 3: Copy and paste the following HTML code in the input box.
+- Step 4: Click Check. 
+- Step 5: Check the results and fix warnings and errors. 
+```html 
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>HTML debugging examples</title>
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <h1>HTML debugging examples</h1>
+
+    <p>What causes errors in HTML?
+
+    <ul>
+      <li>Unclosed elements: If an element is <strong>not closed properly, then its effect can spread to areas you didn't intend
+
+      <li>Badly nested elements: Nesting elements properly is also very important for code behaving correctly. <strong>strong <em>strong emphasised?</strong> what is this?</em>
+
+      <li>Unclosed attributes: Another common source of HTML problems. Let's look at an example: <a href="https://www.mozilla.org/>link to Mozilla homepage</a>
+    </ul>
+  </body>
+</html>
+```
 ## Exercise 1: Text Formatting and page content
 ***Create a (root)folder anywhere in your PC/Cloud and name it as your firstname_lastname*** for your website(all individual exercises). Your website has different types of files: codes (html, css) and assets such as images.
 
