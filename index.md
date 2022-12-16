@@ -317,8 +317,9 @@ The HTML codebeow includes errors.As in  this case, since the html code is not v
 - Step 3: Copy and paste the following HTML code in the input box.
 - Step 4: Click Check. 
 - Step 5: Check the results and fix warnings and errors. 
+
 ```html 
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -329,7 +330,6 @@ The HTML codebeow includes errors.As in  this case, since the html code is not v
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
   </head>
-
   <body>
     <h1>HTML debugging examples</h1>
 
