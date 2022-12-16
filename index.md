@@ -278,7 +278,9 @@ You can use ```<figure> and <figurecatpion>``` elements.
 - You get to find a lot of links in a web page. 
 - Links are used to navigate between different pages or sections of a web page. 
 
-### Tables
+### Table
+
+### Form
 
 ### IDS & Classes
 
