@@ -217,8 +217,11 @@ It is sometimes needed to emphasize certain words within your text. HTML provide
 **Mark:** ``` <mark>...</mark> ``` This is <mark>marked text.</mark>
 
 **<sub>:** ``` <sub>...</sub> ``` This is <sub>subscript text.</sub>
+
 **<sup>:** ``` <sup>...</sup> ``` This is <sub>superscript text.</sub>
+
 **<del>:** ``` <del>...</del> ``` This is <del>deleted text.</del>
+
 **<ins>:** ``` <ins>...</ins> ``` This is <ins>inserted text.</ins>
 
 ### Images in HTML
