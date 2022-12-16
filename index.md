@@ -145,7 +145,7 @@ It is a good idea to write comments whereever applicable. Comments are ignored b
 ***Example of a Structure***
 ![Example of a strucutre](assets/images/structure1.png)
 
-**Heading**
+### Heading ###
 - Heading is commonly used in web pages to define the hierarchy of a web page. 
 - HTML offers 6 levels of heading ```<h1> <h2> <h3> <h4> <h5> <h6>```
 Example:
@@ -157,7 +157,7 @@ Example:
       <h5>This is level 5 heading.</h5>
       <h6>This is level 6 heading.</h6>
 ```
-**Paragraphs**
+### Paragraphs ###
 - Pargraph is another common element that is used to write paragraphs in HTML document. 
 - It starts with the ```<p>``` tag and ends with ```</p>``` tag. 
 Example: 
@@ -221,7 +221,7 @@ It is sometimes needed to emphasize certain words within your text. HTML provide
 **<del>:** ``` <del>...</del> ``` This is <del>deleted text.</del>
 **<ins>:** ``` <ins>...</ins> ``` This is <ins>inserted text.</ins>
 
-## Images in HTML
+### Images in HTML
 
 The img element and its src attribute are used to embed an image in HTML.
 ```html 
@@ -269,6 +269,17 @@ You can use ```<figure> and <figurecatpion>``` elements.
 - Make sure, you own copyrights before displaying an image in your webpage.
 - Images garner attention and draw emotion therfore use images wisely as people pay more attention to image than text.
 - Try to limit larger size images as much as possible so that they are not slowing down your website.
+
+### Links
+
+- You get to find a lot of links in a web page. 
+- Links are used to navigate between different pages or sections of a web page. 
+
+### Tables
+
+### IDS & Classes
+
+### Head & body
 
 ## Exercise 1: Text Formatting and page content
 ***Create a (root)folder anywhere in your PC/Cloud and name it as your firstname_lastname*** for your website(all individual exercises). Your website has different types of files: codes (html, css) and assets such as images.
