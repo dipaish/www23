@@ -96,27 +96,7 @@ Example:
 ```html   
       <em>element 1</em> <em>element 2</em> <em>element 3</em>
 ```
-### Some Commom HTML Elements 
-**Heading**
-- Heading is commonly used in web pages to define the hierarchy of a web page. 
-- HTML offers 6 levels of heading ```<h1> <h2> <h3> <h4> <h5> <h6>```
-Example:
-```html
-      <h1>This is level 1 heading.</h1>
-      <h2>This is level 2 heading.</h2>
-      <h3>This is level 3 heading.</h3>
-      <h4>This is level 4 heading.</h4>
-      <h5>This is level 5 heading.</h5>
-      <h6>This is level 6 heading.</h6>
-```
-**Paragraphs**
-- Pargraph is another common element that is used to write paragraphs in HTML document. 
-- It starts with the ```<p>``` tag and ends with ```</p>``` tag. 
-Example: 
-```html
-      <p> This is a pargraph. </p>
-      <p> This is another pargraph. </p>
-```
+
 ## Whitespaces in HTML
 The whitespace includes space characters as well as line breaks. You can have lots of whitespaces in your code but the HTML parser reduces space(s) or line breaks into a single space when rendering the HTML code. There is no reason to use more white spaces as it might affect the readability if it is not nicely formatted.
 ```html 
@@ -164,6 +144,27 @@ It is a good idea to write comments whereever applicable. Comments are ignored b
  ```
 ***Example of a Structure***
 ![Example of a strucutre](assets/images/structure1.png)
+
+**Heading**
+- Heading is commonly used in web pages to define the hierarchy of a web page. 
+- HTML offers 6 levels of heading ```<h1> <h2> <h3> <h4> <h5> <h6>```
+Example:
+```html
+      <h1>This is level 1 heading.</h1>
+      <h2>This is level 2 heading.</h2>
+      <h3>This is level 3 heading.</h3>
+      <h4>This is level 4 heading.</h4>
+      <h5>This is level 5 heading.</h5>
+      <h6>This is level 6 heading.</h6>
+```
+**Paragraphs**
+- Pargraph is another common element that is used to write paragraphs in HTML document. 
+- It starts with the ```<p>``` tag and ends with ```</p>``` tag. 
+Example: 
+```html
+      <p> This is a pargraph. </p>
+      <p> This is another pargraph. </p>
+```
 
 ### Lists: Unordered
 ```html 
@@ -213,13 +214,12 @@ It is sometimes needed to emphasize certain words within your text. HTML provide
 
 **Underline:** ``` <u>...</u> ``` This is <u>underlined text.</u>
 
-### List of common formatting elements
-| Element  | Impact|
-| ------------- | ------------- |
-|``` <h1> This is heading 1. You can have 6 level of headings from h1 to h6. </h1> ```| <h1> This is heading 1. You can have 6 level of headings from h1 to h6. </h1> |
-|``` <p> This is a pargraph. </p> ```| <p> This is strong text </p>  |
-|``` <strong> This is strong text </strong> ```| <strong> This is strong text </strong>  |
+**Mark:** ``` <mark>...</mark> ``` This is <mark>marked text.</mark>
 
+**<sub>:** ``` <sub>...</sub> ``` This is <sub>subscript text.</sub>
+**<sup>:** ``` <sup>...</sup> ``` This is <sub>superscript text.</sub>
+**<del>:** ``` <del>...</del> ``` This is <del>deleted text.</del>
+**<ins>:** ``` <ins>...</ins> ``` This is <ins>inserted text.</ins>
 
 ## Images in HTML
 
