@@ -12,9 +12,28 @@ You need atleast some of the following tools to get started with web development
 - **Image Editing:**  Adobe Photoshop, Gimp
 ![Development Environment](assets/images/devenvironment.png)
 
+## Frontend
+
+The frontend of a web page is the graphical user interface to create elements and interact with the functionalities as seen by the end user. The frontend is used to ensure the visual aspect of a website is functional. **HTML** is the fundamental component of the web that defines the structure of a web page. ALong with HTML other technolgies such as **CSS and JavaScript** are used to implement the web page's apperances. The list of technolgies commonly used to develop the frontend of a web page are as below: 
+- HTML
+- CSS
+- JavaScript
+- Frontend frameworks such as Vue.js, React Framework, Angula Framework
+
+
+## Backend
+
+Backend development is the development that happens on the server side to ensure all functionalities on the client side (frontend) of the website are functional. The features implemented at the back end are utilized via the fronted and may include activities such as storing and updating data, creating APIs and libraries. The list of technolgies commonly used to develop the backend of a web page are as below: 
+
+- PHP
+- C++
+- Java
+- Python
+- Node.js
+- Backend frameworks such as Express, Django, Laravel, Spring etc. 
 
 ## What is HTML?
-**Hypertext Markup Language (HTML)** is the standard markup language for documents that are designed to be displayed in a web browser. HTML is not a programming language. It is a markup language that tells browser how to structure a web page. HTML is made up of sereis of **elements** such as a piece of text, a pragraph, , list, table, links or forms.
+**Hypertext Markup Language (HTML)** is the standard markup language for documents that are designed to be displayed in a web browser. HTML is not a programming language. It is a markup language that tells browser how to structure a web page. HTML is made up of sereis of **elements** such as a piece of text, a pragraph, list, table, links or forms and is saved with an extension ```.HTML```. 
 
 ***Lets write the following line of text in a text file and save it as*** **file1.html** 
 
@@ -77,7 +96,27 @@ Example:
 ```html   
       <em>element 1</em> <em>element 2</em> <em>element 3</em>
 ```
-
+### Some Commom HTML Elements 
+**Heading**
+- Heading is commonly used in web pages to define the hierarchy of a web page. 
+- HTML offers 6 levels of heading ```<h1> <h2> <h3> <h4> <h5> <h6>```
+Example:
+```html
+      <h1>This is level 1 heading.</h1>
+      <h2>This is level 2 heading.</h2>
+      <h3>This is level 3 heading.</h3>
+      <h4>This is level 4 heading.</h4>
+      <h5>This is level 5 heading.</h5>
+      <h6>This is level 6 heading.</h6>
+```
+**Paragraphs**
+- Pargraph is another common element that is used to write paragraphs in HTML document. 
+- It starts with the ```<p>``` tag and ends with ```</p>``` tag. 
+Example: 
+```html
+      <p> This is a pargraph. </p>
+      <p> This is another pargraph. </p>
+```
 ## Whitespaces in HTML
 The whitespace includes space characters as well as line breaks. You can have lots of whitespaces in your code but the HTML parser reduces space(s) or line breaks into a single space when rendering the HTML code. There is no reason to use more white spaces as it might affect the readability if it is not nicely formatted.
 ```html 
@@ -109,7 +148,7 @@ It is a good idea to write comments whereever applicable. Comments are ignored b
  <!-- comment asdsad asdasda -->
  ```
 
-## Text formatting in HTML
+## Formatting elements in HTML
 
 - HTML is used to structure text within a page by adding headings, paragraphs, emphasizing words and more.
 
@@ -173,6 +212,14 @@ It is sometimes needed to emphasize certain words within your text. HTML provide
 **Italic:** ``` <i>...</i> ``` This is <i>italicized text </i>.
 
 **Underline:** ``` <u>...</u> ``` This is <u>underlined text.</u>
+
+### List of common formatting elements
+| Element  | Impact|
+| ------------- | ------------- |
+|``` <h1> This is heading 1. You can have 6 level of headings from h1 to h6. </h1> ```| <h1> This is heading 1. You can have 6 level of headings from h1 to h6. </h1> |
+|``` <p> This is a pargraph. </p> ```| <p> This is strong text </p>  |
+|``` <strong> This is strong text </strong> ```| <strong> This is strong text </strong>  |
+
 
 ## Images in HTML
 
