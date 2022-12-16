@@ -226,7 +226,7 @@ It is sometimes needed to emphasize certain words within your text. HTML provide
 
 ### Images in HTML
 
-The img element and its src attribute are used to embed an image in HTML.
+The ```img``` element and its src attribute are used to embed an image in HTML.
 ```html 
 <img src="/images/myimage.jpg" alt="" width="100“ height="150"> 
 <img src="https://raw.githubusercontent.com/dipaish/www2020/master/docs/images/header.png " width="680px">
@@ -350,7 +350,11 @@ The HTML codebeow includes errors.As in  this case, since the html code is not v
 
 - Create a proper folder structure
 - Create an index.html
- 
+
+***Example of a website folder structure***
+
+![Folder Structure](assets/images/str.png)
+
 ***The page should look as below:***
 ![Your Index Page for exercises](assets/images/ex1.png)
 
@@ -365,7 +369,11 @@ The HTML codebeow includes errors.As in  this case, since the html code is not v
     - Put some random text pieces in the  ```<p>``` tag
     - Add a couple of random link to some external pages.
     - Apply some text formatting such as bold, italic, underline to some part of your text.
-    - Add an image to your page
+    - Add an image to your page.
+    - Add a table to your page. 
+    - Validate your html document by using [Markup Validation Service](https://validator.w3.org/) 
+    - Fix errors and warnings if there are any. 
+    - Submit the link to the page. 
 
 ## References: 
 - Mdn Web Docs 
