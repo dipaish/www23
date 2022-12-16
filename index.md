@@ -216,13 +216,13 @@ It is sometimes needed to emphasize certain words within your text. HTML provide
 
 **Mark:** ``` <mark>...</mark> ``` This is <mark>marked text.</mark>
 
-**<sub>:** ``` <sub>...</sub> ``` This is <sub>subscript text.</sub>
+**Sub:** ``` <sub>...</sub> ``` This is <sub>subscript text.</sub>
 
-**<sup>:** ``` <sup>...</sup> ``` This is <sub>superscript text.</sub>
+**Sup:** ``` <sup>...</sup> ``` This is <sup>superscript text.</sup>
 
-**<del>:** ``` <del>...</del> ``` This is <del>deleted text.</del>
+**Del:** ``` <del>...</del> ``` This is <del>deleted text.</del>
 
-**<ins>:** ``` <ins>...</ins> ``` This is <ins>inserted text.</ins>
+**Ins:** ``` <ins>...</ins> ``` This is <ins>inserted text.</ins>
 
 ### Images in HTML
 
