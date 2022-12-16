@@ -366,14 +366,12 @@ The HTML codebeow includes errors.As in  this case, since the html code is not v
     - Start writing your html code. Save the file as exercise1.html and do all following tasks in the same file
     - The HTML head is the contents of the ```<head>....</head>``` element. The content of the head element is not displayed to the user. It contains metadata about the document such as the author information, the title of the page, the metadata element such as the document's character encoding, custom icon to your page, link to the CSS and JavaScript file that are applied to the pages, primary language of the document, Your task is to include a proper title, the author information,set the character set as utf-8 and a brief description that is used on a search engine result pages.For this task, please consider reading this document: [What's in the head?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
     - The top level heading of the page can be heading 1
-    - Put some random text pieces in the  ```<p>``` tag
-    - Add a couple of random link to some external pages.
+    - Put text pieces from the website in the  ```<p>``` tag
+    - Add a link to the website that you have selected for this task.
     - Apply some text formatting such as bold, italic, underline to some part of your text.
     - Add an image to your page.
-    - Add a table to your page. 
     - Validate your html document by using [Markup Validation Service](https://validator.w3.org/) 
     - Fix errors and warnings if there are any. 
-    - Submit the link to the page. 
 
 ## References: 
 - Mdn Web Docs 
