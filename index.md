@@ -303,7 +303,11 @@ The HTML codebeow includes errors.As in  this case, since the html code is not v
   - **Validate by URL**: use the link of your page that you want to validate. 
   - **Validate by File Upload**: Upload the html file that you want validate. 
   - **Validate by Direct Input**: Directly input the html code that you want to validate. 
+
+[Markup Validation Service](https://validator.w3.org/) 
+
 ![HTML Validator ](assets/images/validator.png)
+
 ***Lets look into the following html code and try to validate the document by Direct Input***
 - Step 1: Get to Validator Page: https://validator.w3.org/
 - Step 2: Select Validate by Direct Input
