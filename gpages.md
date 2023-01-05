@@ -22,19 +22,19 @@ Elements such as ```<header>, <footer> and <article>``` are **semantic** because
 
 |**HTML Tag**| **Meaning of the Tag**| 
 |----------|-------------|
-| <article> |  An article | 
-| <article> |  An article | 
-| <article> |  An article | 
-| <article> |  An article | 
-| <article> |  An article | 
-| <article> |  An article | 
-| <article> |  An article | 
-| <article> |  An article | 
-| <article> |  An article | 
-| <article> |  An article | 
-| <article> |  An article | 
-| <article> |  An article | 
-| <article> |  An article | 
+|``` <article>``` |  An article | 
+| ```<article>``` |  An article | 
+| ```<article>``` |  An article | 
+| ```<article>``` |  An article | 
+| ```<article>``` |  An article | 
+| ```<article>``` |  An article | 
+| ```<article>``` |  An article | 
+| ```<article>``` |  An article | 
+| ```<article>``` |  An article | 
+| ```<article>``` |  An article | 
+| ```<article>``` |  An article | 
+| ```<article>``` |  An article | 
+| ```<article>``` |  An article | 
 
 ***[HTML Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)***
 
