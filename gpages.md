@@ -23,22 +23,23 @@ Elements such as ```<header>, <footer> and <article>``` are **semantic** because
 |**HTML Tag**| **Meaning of the Tag**| 
 |----------|-------------|
 |``` <article>``` |  An article | 
-| ```<article>``` |  An article | 
-| ```<article>``` |  An article | 
-| ```<article>``` |  An article | 
-| ```<article>``` |  An article | 
-| ```<article>``` |  An article | 
-| ```<article>``` |  An article | 
-| ```<article>``` |  An article | 
-| ```<article>``` |  An article | 
-| ```<article>``` |  An article | 
-| ```<article>``` |  An article | 
-| ```<article>``` |  An article | 
-| ```<article>``` |  An article | 
+| ```<aside>``` |  Content aside from the page content | 
+| ```<details>``` |  Additional details that can be viewed or hidden by user | 
+| ```<figcaption>``` |  A caption for a ```<figure>``` element | 
+| ```<figure>``` |  Content such as illustrations, diagrams... | 
+| ```<footer>``` |  A footer for a document or section | 
+| ```<header>``` |  A header for a document or section | 
+| ```<main>``` | The main content of a document | 
+| ```<mark>``` |  Marked/highlighted text | 
+| ```<nav>``` |  Navigation links | 
+| ```<section>``` |  A section in a document | 
+| ```<summary>``` |  A visible heading for a ```<details>``` element | 
+| ```<time>``` |  Date/time | 
 
 ***[HTML Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)***
 
 ***HTML Code Example with and without Semantic Elements***
+
 |**HTML5 - Semantic Elements ** | **HTML - Without Semantic Elements**| 
 | ------------- | ------------- |
 |
