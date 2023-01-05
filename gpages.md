@@ -39,36 +39,41 @@ Elements such as ```<header>, <footer> and <article>``` are **semantic** because
 ***[HTML Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)***
 
 ***HTML Code Example with and without Semantic Elements***
-| **HTML5 - Semantic Elements **| **HTML - Without Semantic Elements**| 
+|**HTML5 - Semantic Elements ** | **HTML - Without Semantic Elements**| 
 | ------------- | ------------- |
-|``` <!DOCTYPE html>
-            <html lang="en">
-            <head>
-                <meta charset="UTF-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Document</title>
-            </head>
-            <body>
-               <header>
-                    <nav>
-                         <ul> 
-                             <li class="nav-links"> <a href="">Home</a> </li> 
-                             <li class="nav-links"> <a href="">About Us</a> </li> 
-                            </ul> 
-                        </nav> 
-                    </header> 
-                    <main> 
-                        <h1>Here is a heading</h1> 
+|
+```html 
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+            <header>
+                <nav>
+                    <ul> 
+                        <li class="nav-links"> <a href="">Home</a> </li> 
+                        <li class="nav-links"> <a href="">About Us</a> </li> 
+                    </ul> 
+                </nav> 
+                </header> 
+                <main> 
+                    <h1>Here is a heading</h1> 
                         <section> <p>hello world</p> </section> 
-                    </main> 
-                    <footer> 
-                        <p>This is the footer</p> 
-                    </footer>  
-            </body>
-            </html> ```  |  
-            ``` <html>
-            <head>
+                </main> 
+                <footer> 
+                    <p>This is the footer</p> 
+                </footer>  
+        </body>
+    </html> 
+```
+|  
+```html
+    <html>
+        <head>
                 <title>Document</title>
             </head>
             <body>
@@ -91,5 +96,5 @@ Elements such as ```<header>, <footer> and <article>``` are **semantic** because
                  </div> 
             </body>
             </html> 
-            ```
-             | 
+    ```
+| 
