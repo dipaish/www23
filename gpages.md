@@ -120,9 +120,7 @@ In **Visual Studio code**, you can get the initial part (boilerplate) of the HTM
 ***Let's look into each of those line***
 
 ```<!DOCTYPE html>```
-This is the declaration to tell the browser what type of document to expect. You must start your HTML pages with a <!DOCTYPE> declaration.
-
-Your HTML pages will work fine even without the declaration however some of the HTML5 tags such as an article or a footer may not be supported by the browser.
+This is the declaration to tell the browser what type of document to expect. You must start your HTML pages with a <!DOCTYPE> declaration.Your HTML pages will work fine even without the declaration however some of the HTML5 tags such as an article or a footer may not be supported by the browser.
 
 ```<html lang="en">```
 Lang attribute inside the HTML tag sets the language of the webpage. It enhances accessibility that is the screen reader will know the language and will pronounce the text correctly.
@@ -143,6 +141,7 @@ The viewport is the end user’s visible area of a web page which is different f
 1. HTML5 code should begin with specifying the **DOCTYPE**
 2. The character encoding can be specified by using the meta tag
 > In Visual studio code, you can get the intial part of the html document by typing **html:5 or !**
+
 ```html
     <!DOCTYPE html>
         <html lang="en">
@@ -162,3 +161,5 @@ The viewport is the end user’s visible area of a web page which is different f
 ### Naming HTML Files
 - Select names that meaningfully describes the file's contents such as contactus.html, about.html.
 - Avoid spaces in your filesnames as browsers replace spaces in your filename with characters %20 that can confuse users
+
+## Exercise 2
