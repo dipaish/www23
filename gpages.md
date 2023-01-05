@@ -19,8 +19,6 @@ Semantics describes the meaning of a piece of code in a human and machine-readab
 Elements such as ```<header>, <footer> and <article>``` are **semantic** because they accurately describe the purpose of the element and also the content of the element. **Semantic elements** enhance the readability and accessibility of the HTML code whereas **non semantic elemenets** such as ```<div> <span>``` doest not describe any thing about the content.
 
 ***List of Semantic Elemets in HTML5***
-| HTML Character  | Equivalent Character Reference |
-| ------------- | ------------- |
 
 |**HTML Tag**| **Meaning of the Tag**| 
 |----------|-------------|
@@ -41,8 +39,8 @@ Elements such as ```<header>, <footer> and <article>``` are **semantic** because
 ***[HTML Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)***
 
 ***HTML Code Example with and without Semantic Elements***
-| **HTML5**   |      **HTML**      | 
-|----------|:-------------:|
+| **HTML5 - Semantic Elements **| **HTML - Without Semantic Elements**| 
+| ------------- | ------------- |
 |``` <!DOCTYPE html>
             <html lang="en">
             <head>
