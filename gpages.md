@@ -12,3 +12,4 @@ HTML5 has a number of new elements and attribute that can be utilized to build m
 - **Audio & Video** A video can be easily embedded on web pages without the need of third party plugins.
 - **Geolocation** It alows uses to share their physical location with web applications.
 - **Drag & Drop** It allows adding drag and drop feature into web pages.
+
