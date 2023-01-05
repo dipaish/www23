@@ -18,7 +18,7 @@ Semantics describes the meaning of a piece of code in a human and machine-readab
 
 Elements such as ```<header>, <footer> and <article>``` are **semantic** because they accurately describe the purpose of the element and also the content of the element. **Semantic elements** enhance the readability and accessibility of the HTML code whereas **non semantic elemenets** such as ```<div> <span>``` doest not describe any thing about the content.
 
-***List of Semantic Elemets in HTML5***
+### List of Semantic Elemets in HTML5
 
 |**HTML Tag**| **Meaning of the Tag**| 
 |----------|-------------|
@@ -38,7 +38,7 @@ Elements such as ```<header>, <footer> and <article>``` are **semantic** because
 
 ***[HTML Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)***
 
-***HTML Code Example with Semantic Elements***
+***HTML5 Code Example with Semantic Elements***
 
 ```html 
 <!DOCTYPE html>
@@ -162,4 +162,10 @@ The viewport is the end user’s visible area of a web page which is different f
 - Select names that meaningfully describes the file's contents such as contactus.html, about.html.
 - Avoid spaces in your filesnames as browsers replace spaces in your filename with characters %20 that can confuse users
 
+## GitHub Pages
+
+***[Quickstart for GitHub Pages](https://docs.github.com/en/pages/quickstart)***
+
 ## Exercise 2
+It is now time to apply what you have learnt, please find the exercise at the link below: 
+***[Exercise 2](https://docs.google.com/document/d/1SHxa-WOg6c5n02uqgv_wHKih4ro73VVG/edit?usp=share_link&ouid=111470325935077300698&rtpof=true&sd=true)***
