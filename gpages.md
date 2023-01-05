@@ -42,8 +42,7 @@ Elements such as ```<header>, <footer> and <article>``` are **semantic** because
 
 |**HTML5 - Semantic Elements ** | **HTML - Without Semantic Elements**| 
 | ------------- | ------------- |
-|
-```html 
+|```html 
 <!DOCTYPE html>
     <html lang="en">
         <head>
@@ -70,9 +69,7 @@ Elements such as ```<header>, <footer> and <article>``` are **semantic** because
                 </footer>  
         </body>
     </html> 
-```
-|  
-```html
+```|  ```html
     <html>
         <head>
                 <title>Document</title>
@@ -97,5 +94,4 @@ Elements such as ```<header>, <footer> and <article>``` are **semantic** because
                  </div> 
             </body>
             </html> 
-    ```
-| 
+```| 
