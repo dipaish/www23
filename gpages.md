@@ -38,11 +38,9 @@ Elements such as ```<header>, <footer> and <article>``` are **semantic** because
 
 ***[HTML Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)***
 
-***HTML Code Example with and without Semantic Elements***
+***HTML Code Example with Semantic Elements***
 
-|**HTML5 - Semantic Elements ** | **HTML - Without Semantic Elements**| 
-| ------------- | ------------- |
-|```html 
+```html 
 <!DOCTYPE html>
     <html lang="en">
         <head>
@@ -69,7 +67,9 @@ Elements such as ```<header>, <footer> and <article>``` are **semantic** because
                 </footer>  
         </body>
     </html> 
-```|  ```html
+```
+***HTML Code Example without Semantic Elements***
+ ```html
     <html>
         <head>
                 <title>Document</title>
@@ -94,4 +94,71 @@ Elements such as ```<header>, <footer> and <article>``` are **semantic** because
                  </div> 
             </body>
             </html> 
-```| 
+```
+
+## HTML5 Boilerplate
+Boilerplate code (boilerplate) are sections of code that are repeated in multiple places with very little to no variation.
+
+In HTML, a boilerplate is the topmost part of the HTML document that is added when you start to create HTML pages. The boilerplate is added to all of your HTML pages.
+
+In **Visual Studio code**, you can get the initial part (boilerplate) of the HTML document by typing **html:5 or !**
+
+```html
+ <!DOCTYPE html> 
+    <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+      </head>
+      <body>
+         
+      </body>
+    </html>
+```
+***Let's look into each of those line***
+
+```<!DOCTYPE html>```
+This is the declaration to tell the browser what type of document to expect. You must start your HTML pages with a <!DOCTYPE> declaration.
+
+Your HTML pages will work fine even without the declaration however some of the HTML5 tags such as an article or a footer may not be supported by the browser.
+
+```<html lang="en">```
+Lang attribute inside the HTML tag sets the language of the webpage. It enhances accessibility that is the screen reader will know the language and will pronounce the text correctly.
+
+```<head> ….. </head>```
+Anything that is enclosed in the head tag is not visible in the browser but includes valuable information such as the metadata which describes the document to the machine. It contains information such as the page <title>, links to CSS and other metadata.
+
+```<meta charset="utf-8">```
+It specifies the document's character encoding. utf-8 is a universal character set that includes most of the characters from any human language. To display your characters properly (Ä, ö, Å), it is a good idea to include the charset in all HTML pages.
+
+```<meta http-equiv="X-UA-Compatible" content="IE=edge">```
+X-UA-Compatible tells the document what version of Internet Explorer the HTML page should be rendered as. The Modern IE browsers are much more compliant with the web standard and therefore there is no need of writing a separate CSS file for the IE browsers which used to be a headache a few years back for website developers.
+
+```<meta name="viewport" content="width=device-width, initial-scale=1.0">```
+The viewport is the end user’s visible area of a web page which is different for different devices. The visible area on a mobile phone is smaller than on a computer screen therefore it is required to control the web page’s dimensions and scaling. The width=device-width takes into account the screen width of the device from which a user is viewing the web page while the initial-scale=1.0 sets the initial zoom level for the web page.
+
+### Creating your own HTML5 page
+1. HTML5 code should begin with specifying the **DOCTYPE**
+2. The character encoding can be specified by using the meta tag
+> In Visual studio code, you can get the intial part of the html document by typing **html:5 or !**
+```html
+    <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+            </head>
+            <body>
+                    
+            </body>
+        </html>
+```                
+3. Save the file with extension .html for example index.html
+> Note: Web browsers ignore spaces and carraige returns in your html code
+
+### Naming HTML Files
+- Select names that meaningfully describes the file's contents such as contactus.html, about.html.
+- Avoid spaces in your filesnames as browsers replace spaces in your filename with characters %20 that can confuse users
