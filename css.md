@@ -15,6 +15,7 @@ CSS (Cascading Style Sheets) is a style sheet language for creating great-lookin
 The embedded CSS or the internal CSS is written inside the ```<style>``` element in the ```<head>``` section of your HTML document.
 
 > Example of embedded CSS
+
 ```html
       <!DOCTYPE html>
       <html>
@@ -49,12 +50,13 @@ To link style.css to index.html add one of the following line somewhere inside t
 CSS selector defines what elements should the CSS property be applied.
 ![HTML Element](assets/images/cssselector.png)
 
+
 **CSS Example**
 - [Example Page] (https://dipaish.github.io/www2020/cssexample.html)
 - [CSS File](https://raw.githubusercontent.com/dipaish/www2020/master/docs/css/learncss.css) 
 
 ## CSS Validator
-To validate your CSS style sheet, you can use the CSS Validation service at this link: [CSS Validation service] (https://jigsaw.w3.org/css-validator/)
+To validate your CSS style sheet, you can use the CSS Validation service at this link: [CSS Validation service](https://jigsaw.w3.org/css-validator/)
 
 **To learn more:**
 - https://www.google.fi/search?sourceid=navclient&ie=UTF-8&q=html%2Blearn
