@@ -430,6 +430,7 @@ The other options you can use are ```autoplay, loop, muted, preload="auto" ```.
 ```
 
 ***The ```<audio>``` element allows to add an audio to your webpage.***
+
 ```html
 <audio controls>
     <source src="assets/audio/file.mp3" type="audio/mp3">
@@ -443,7 +444,9 @@ The other options you can use are ```autoplay, loop, muted, preload="auto" ```.
 
 ## Embedding Technologies
 
-```<iframe>```
+```
+<iframe>
+```
 
 The iframe element allows embedding different contents such as a <b>Youtube video or a Google Map</b>. It is very easy to embed third-party content however you should embed only if it is really important. When embedding content, please make sure that:
 
@@ -459,7 +462,9 @@ The iframe element allows embedding different contents such as a <b>Youtube vide
 
 3.Insert the copied code into your HTML document.
 
-```<embed>```
+```
+<embed>
+```
 
 It allows you to embed external content such as a video.
 
@@ -471,7 +476,9 @@ It allows you to embed external content such as a video.
        height="200" title="title of the video">
 ```
 
-```<object>```
+```
+<object>
+```
 
 It allows you to represent an external resource that is treated as an image or as a resource that is handled by a plugin.
 ```html 
