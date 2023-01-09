@@ -406,7 +406,7 @@ The HTML codebeow includes errors.As in  this case, since the html code is not v
     - Put text pieces from the website in the  ```<p>``` tag
     - Add a link to the website that you have selected for this task.
     - Apply some text formatting such as bold, italic, underline to some part of your text.
-    - Add an image to your page.
+    - Add a paragraph that has an image that is aligned to the right side of the page. 
     - Validate your html document by using [Markup Validation Service](https://validator.w3.org/) 
     - Fix errors and warnings if there are any. 
 
