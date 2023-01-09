@@ -407,7 +407,7 @@ You have already embedded images in your web page. You can embed different types
 The ```<video>``` element allows you to embed a video.
 
 ```html
- <video src=""images/test.mp4" controls width="400" height="250">
+ <video src="images/test.mp4" controls width="400" height="250">
     <p>Your browser doesn't support HTML5 video.
        Here is a <a href="assets/video/test.mp4">link to the video</a></p>
   </video>
