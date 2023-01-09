@@ -296,20 +296,23 @@ As per need, you may align your image either on the left or right side of your p
 - Links are used to navigate between different pages or sections of a web page.
 - Links can point to HTML files, text documents, images, video or audio files, or other web pages. 
 - You create a basic link by using ```<a>``` element with the ```href``` attribute.
+- You can use the **target** attribute to specify how the link should be opened such as in the same tab or in a new tab. 
 
 ***Examples***
 ```
-Linking to HAMK Page
+<!-- Linking to HAMK Page, opens in the same tab -->
 
 <a href="https://www.hamk.fi/">HAMK</a>
 
-Image as a link
+<!--Image as a link, on clciking an image, it takes to the HAMK page. -- >
 <a href="https://www.hamk.fi/">
   <img src="hamk.png" alt="HAMK homepage" />
 </a>
 
+<!-- _blank : opens the link in a new tab -->
+<a href="https://www.hamk.fi/" target="_blank">HAMK</a>
+ 
 ```
-
 ### Table
 
 ### Form
