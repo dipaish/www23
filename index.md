@@ -276,7 +276,22 @@ You can use ```<figure> and <figurecatpion>``` elements.
 ### Links
 
 - You get to find a lot of links in a web page. 
-- Links are used to navigate between different pages or sections of a web page. 
+- Links are used to navigate between different pages or sections of a web page.
+- Links can point to HTML files, text documents, images, video or audio files, or other web pages. 
+- You create a basic link by using ```<a>``` element with the ```href``` attribute.
+
+***Examples***
+```
+Linking to HAMK Page
+
+<a href="https://www.hamk.fi/">HAMK</a>
+
+Image as a link
+<a href="https://www.hamk.fi/">
+  <img src="hamk.png" alt="HAMK homepage" />
+</a>
+
+```
 
 ### Table
 
