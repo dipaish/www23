@@ -255,6 +255,14 @@ The ***title*** attribute in image provides a tooltip on mouse over.It is howeve
 ```html 
   <img src="images/img1.jpg" alt="info about image" title="more info">
 ``` 
+**Image within a paragraph**
+As per need, you may align your image either on the left or right side of your paragraph. 
+- ***To align image on the left side of a paragraph***
+```html 
+  <img src="assets/images/Opensource.svg.png" alt="opensource image" float="left"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae eveniet sequi, ex provident obcaecati corporis et distinctio dolore voluptatum architecto, deserunt explicabo soluta harum veritatis quo adipisci expedita excepturi officiis nulla qui voluptatibus? Libero quis at iste ex aspernatur eaque saepe, 
+        minus asperiores distinctio ratione repellat excepturi incidunt iusto?Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quae eveniet sequi, ex provident obcaecati corporis et distinctio dolore voluptatum architecto, deserunt explicabo soluta harum veritatis quo adipisci expedita excepturi officiis nulla qui voluptatibus? Libero quis at iste ex aspernatur eaque saepe, 
+        minus asperiores distinctio ratione repellat excepturi incidunt iusto?
+``` 
 **Image Captions in HTML5**
 You can use ```<figure> and <figurecatpion>``` elements.
 ```html 
