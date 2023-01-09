@@ -558,6 +558,11 @@ To mark up computer code in HTML you have multiple elements in html.
 
 ## Inspect Element
 
+Inspect element is one of the important feature used by web developers that is available in most of the modern browsers such as Google Chrome or Firefox. It allows you to: 
+- test your HTML or CSS code and  see the changes in real time
+- check the if the page contains any errors or bugs on a web page.
+- modify or tweak page elements without doing the permanent change to your code.
+
 ### Table
 
 ### Form
