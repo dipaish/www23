@@ -335,7 +335,7 @@ When something is wrong in code, there are mainly two types of errors ***Syntax 
 
 
 ## HTML Validation
-The HTML codebeow includes errors.As in  this case, since the html code is not very long, one can search through the lines and correct errors. **But how to check errors when the HTML document is complex and very long?**
+The HTML code below includes errors. As in  this case, since the html code is not very long, one can search through the lines and correct errors. **But how to check errors when the HTML document is complex and very long?**
 
 - The best option is to use **Markup Validation Services** which is created and maintained by **W3C** (the organization that looks after the specifications that define HTML, CSS, and other web technologies.)
 - The **HTML validator** will take your HTML document as an input, process it and provides you a report that tells what is wrong with your HTML.
