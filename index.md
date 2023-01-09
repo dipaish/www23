@@ -563,11 +563,11 @@ Inspect element is one of the important feature used by web developers that is a
 - check the if the page contains any errors or bugs on a web page.
 - modify or tweak page elements without doing the permanent change to your code.
 
-### Table
+## Table
 
-### Form
+## Form
 
-### IDS & Classes
+## IDS & Classes
 
 ## References: 
 - Mdn Web Docs 
