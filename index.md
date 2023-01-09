@@ -313,13 +313,6 @@ As per need, you may align your image either on the left or right side of your p
 <a href="https://www.hamk.fi/" target="_blank">HAMK</a>
  
 ```
-### Table
-
-### Form
-
-### IDS & Classes
-
-### Head & body
 
 ## Debugging HTML 
 It is very likely that you commit errors when coding. Some of your code won't work at all or works a bit differently than what you have expected. HTML is not as complicated as other programming languages like Python or Php.The way browsers parse html document is more permissive than other languages. For instance, missing a semicolon in some programming language will mess up thing whereas in html, even if you write the elements incorrectly its going to product certain output.
@@ -330,9 +323,6 @@ When something is wrong in code, there are mainly two types of errors ***Syntax 
   - **Logic Errors** is when the sytax is correct but the program is not running as intended. It is difficult to fix this kind of errors.
 
 >> Note: HTML is parsed permissively because when the web was first created, it was decided that allowing people to get their content published was more important than making sure the syntax was absolutely correct. The web would probably not be as popular as it is today, if it had been more strict from the very beginning.
-
-## Inspect Element
-
 
 ## HTML Validation
 The HTML code below includes errors. As in  this case, since the html code is not very long, one can search through the lines and correct errors. **But how to check errors when the HTML document is complex and very long?**
@@ -409,6 +399,163 @@ The HTML code below includes errors. As in  this case, since the html code is no
     - Add a paragraph that has an image that is aligned to the right side of the page. 
     - Validate your html document by using [Markup Validation Service](https://validator.w3.org/) 
     - Fix errors and warnings if there are any. 
+
+## Mulitmedia in Web pages
+
+You have already embedded images in your web page. You can embed different types of multimedia such as a video and audio content, vector graphics and responsive images.
+
+The ```<video>``` element allows you to embed a video.
+
+```html
+ <video src=""images/test.mp4" controls width="400" height="250">
+    <p>Your browser doesn't support HTML5 video.
+       Here is a <a href="assets/video/test.mp4">link to the video</a></p>
+  </video>
+```
+
+<video src="assets/video/test.mp4" controls width="400" height="250">
+    <p>Your browser doesn't support HTML5 video.
+       Here is a <a href="assets/video/test.mp4">link to the video</a></p>
+  </video>
+
+The other options you can use are ```autoplay, loop, muted, preload="auto" ```.
+
+***Example***
+
+```html 
+<video src="assets/video/test.mp4" controls width="400" height="250" autoplay loop muted>
+  <p>Your browser doesn't support HTML5 video.
+     Here is a <a href="assets/video/test.mp4">link to the video</a></p>
+</video>  
+```
+
+***The ```<audio>``` element allows to add an audio to your webpage.***
+```html
+<audio controls>
+    <source src="assets/audio/file.mp3" type="audio/mp3">
+    <p>Your browser doesn't support HTML5 audio. </p>
+  </audio>
+```
+<audio controls>
+    <source src="assets/audio/file.mp3" type="audio/mp3">
+    <p>Your browser doesn't support HTML5 audio. </p>
+  </audio>
+
+## Embedding Technologies
+
+```<iframe>```
+
+The iframe element allows embedding different contents such as a <b>Youtube video or a Google Map</b>. It is very easy to embed third-party content however you should embed only if it is really important. When embedding content, please make sure that:
+
+- The content is secure enough to share
+- Be aware of intellectual property issues.
+- Obey the licence terms of the content if the content is licensed.
+
+**Example: Embedding a youtube video into your web page**
+
+1. First, go to YouTube and find a video you like. Below the video, you'll find a **Share button**. Click the share button to display the sharing options.
+
+2. Select the Embed button and you'll be given some ```<iframe>``` code. Copy the code
+
+3.Insert the copied code into your HTML document.
+
+```<embed>```
+
+It allows you to embed external content such as a video.
+
+***Example***
+```html 
+<embed type="video/webm"
+       src="/media/video.mp4"
+       width="250"
+       height="200" title="title of the video">
+```
+
+```<object>```
+
+It allows you to represent an external resource that is treated as an image or as a resource that is handled by a plugin.
+```html 
+<object type="application/pdf"
+    data="/examples/file.pdf"
+    width="250"
+    height="200">
+</object>
+```
+## Some More elements for formatting text
+- Description list
+- Quotations:Blockquotes & Inline Quotations
+- Abbreviations
+- Superscript & Subscript
+- Marking up computer code in HTML
+
+***Description list***
+
+You may use ```<dl>``` elemet to create a **description list**. With the description list, you can mark up set of items and their descriptions such as questions and answers or terms and definitions.
+
+```html
+  <dl>
+    <dt>Description Title</dt>
+    <dd>Here you can have your description text.</dd>
+    <dt>Title 1</dt>
+    <dd>Description text.</dd>
+  </dl>
+```
+***Quotations: Blockquotes, Inline Quotations & Citations***
+
+There are options in HTML to mark up quotations.
+
+**Example of a blockquote**
+
+```html
+<blockquote>Hello World</blockquote>
+```
+<blockquote>Hello World</blockquote>
+
+**Example of inline quotations**
+
+For inline quotations, you can use the ```<q>``` element. It is intended for short quotations which does not require paragraph breaks.
+
+```<q>One more quotation</q>```
+<q>One more quotation</q>
+**Example of Abbreviations**
+
+In-order to wrap around an acronym, you can use the ```<abbr>``` element.
+
+```html
+    <p> <abbr title="Hämeen ammattikorkeakoulu">HAMK</abbr> is one of the best UAS in Finland.</p>
+```
+<p> <abbr title="Hämeen ammattikorkeakoulu">HAMK</abbr> is one of the best UAS in Finland.</p>
+
+**Marking up computer code**
+
+To mark up computer code in HTML you have multiple elements in html.
+
+```html
+    <pre><code>var para = document.querySelector('p');
+
+      para.onclick = function() {
+        alert('Owww, stop poking me!');
+      }</code></pre>
+      
+      <p>You shouldn't use presentational elements like <code>&lt;font&gt;</code> and <code>&lt;center&gt;</code>.</p>
+      
+      <p>In the above JavaScript example, <var>para</var> represents a paragraph element.</p>
+      
+      <p>Select all the text with <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>A</kbd>.</p>
+      
+      <pre>$ <kbd>ping mozilla.org</kbd>
+      <samp>PING mozilla.org (63.245.215.20): 56 data bytes
+      64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms</samp></pre>
+```
+  
+
+## Inspect Element
+
+### Table
+
+### Form
+
+### IDS & Classes
 
 ## References: 
 - Mdn Web Docs 
