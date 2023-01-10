@@ -1,5 +1,5 @@
 ## What is CSS?
-CSS (Cascading Style Sheets) is a style sheet language for creating great-looking web pages. It describes the presentation of elements in a document. You define a group of styles that are applied to partical elements on your web page. For example, you want the main heading to be shown as large red text.
+CSS (Cascading Style Sheets) is a style sheet language for creating great-looking web pages. It describes the presentation of elements in a document. You define a group of styles that are applied to particular elements on your web page. For example, you want the main heading to be shown as large red text.
 
 ### Inline CSS
 - It is often used to apply a style for a single html element.
