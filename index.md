@@ -554,7 +554,6 @@ To mark up computer code in HTML you have multiple elements in html.
       <samp>PING mozilla.org (63.245.215.20): 56 data bytes
       64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms</samp></pre>
 ```
-  
 
 ## Inspect Element
 
