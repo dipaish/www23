@@ -52,7 +52,7 @@ CSS selector defines what elements should the CSS property be applied.
 
 
 **CSS Example**
-- [Example Page] (https://dipaish.github.io/www2020/cssexample.html)
+- [Example Page](https://dipaish.github.io/www2020/cssexample.html)
 - [CSS File](https://raw.githubusercontent.com/dipaish/www2020/master/docs/css/learncss.css) 
 
 ## CSS Validator
