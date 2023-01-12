@@ -65,4 +65,4 @@ To validate your CSS style sheet, you can use the CSS Validation service at this
 
 ## Exercise 3
 It is now time to apply what you have learnt, please find the exercise at the link below: 
-***[Exercise 3](https://docs.google.com/document/d/e/2PACX-1vRWhn2itEQ-aSwJz10PMxaqrqBffQUuqOIaAkJ4iZNE02vnx9TyfSppX3SudUw1XA/pub)***
+***[Exercise 3](https://docs.google.com/document/d/1_Jjq6BvFO_p34vSD2S0kGBkt-irFea4L/edit?usp=share_link&ouid=111470325935077300698&rtpof=true&sd=true)***
