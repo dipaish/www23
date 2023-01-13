@@ -69,3 +69,30 @@ Get HTML code at this link: [Required File](https://dipaish.github.io/www2020/fl
 
 - [Layout 1](https://dipaish.github.io/www2020/images/Lay1.PNG)
 - [Layout 2](https://dipaish.github.io/www2020/images/layout2.PNG)
+
+***Floats***
+The float property was introduced to allow web developers to implement simple layouts involving an image floating inside a column of text, with the text wrapping around the left or right of it. The kind of thing you might get in a newspaper layout. Floats are commonly used to create entier website layouts.
+
+**Example of a flexbox layout:** [Link to the Example file ](https://dipaish.github.io/www2020/floatexample.html)
+
+### CSS Grid
+A CSS grid is defined using the grid value of the display property; you can define columns and rows on your grid using the grid-template-rows and grid-template-columns properties.
+
+**Some resources for learning CSS grid:**
+- https://developer.mozilla.org/en-US/docs/Glossary/Grid
+- https://css-tricks.com/snippets/css/complete-guide-grid
+
+## Exercise 4: HTML Layout
+
+- Create a new html page and name it as exercise4.html.
+- Write css to create a template as in the image. Use semantic elements such as header, navbar, article, footer in your css. The content and some styles of the page are like you did above.
+
+**Image for the layout**
+![Exercise 4: HTML Layout](assets/images/task4.png)
+
+***References***
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+
+***To learn more***
+- https://www.google.fi/search?sourceid=navclient&ie=UTF-8&q=html%2Blearn
+- https://www.w3schools.com/html/default.asp
