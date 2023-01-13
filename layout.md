@@ -75,7 +75,9 @@ Get HTML code at this link: [Required File](https://dipaish.github.io/www2020/fl
 ***Floats***
 The float property was introduced to allow web developers to implement simple layouts involving an image floating inside a column of text, with the text wrapping around the left or right of it. The kind of thing you might get in a newspaper layout. Floats are commonly used to create entier website layouts.
 
-**Example of a flexbox layout:** [Link to the Example file ](https://dipaish.github.io/www2020/floatexample.html)
+**Example of a flexbox layout:**
+
+[Link to the Example file ](https://dipaish.github.io/www2020/floatexample.html)
 
 ### CSS Grid
 
