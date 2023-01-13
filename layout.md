@@ -6,14 +6,16 @@ We can use **CSS** to create page layouts and control the position of our html e
 
 You don't do anything for the layout, the normal flow will take the html elements as you have written them in your html code. The elements will be displayed in the **same order** as it appears in the **source code.** The elements that appear one after another are block elements and the ones that appear in the same line are **inline elements.**
 
-**Example of Normal Flow Layout:**
-![Normal Layour](assets/images/nlayout.png)
+**Example of a Normal Flow Layout:**
+
+![Normal Layout](assets/images/nlayout.png)
 
 ### Flexbox
 
 The flexbox make things easier to put html elemets either in a row or a column. Flexbox is one dimensional that is we can deal with the layout in one dimensiona at a time. We can use flexbox to create flexible and responsive layout.
 
 ***To use flex box:***
+
 1.**Flex Container/Elements:** We should first define a **flex container** or specify what **elements** are used as flexible boxes.
 
 ```html
@@ -76,6 +78,7 @@ The float property was introduced to allow web developers to implement simple la
 **Example of a flexbox layout:** [Link to the Example file ](https://dipaish.github.io/www2020/floatexample.html)
 
 ### CSS Grid
+
 A CSS grid is defined using the grid value of the display property; you can define columns and rows on your grid using the grid-template-rows and grid-template-columns properties.
 
 **Some resources for learning CSS grid:**
