@@ -574,6 +574,8 @@ It is now time to apply what you have learnt, please find the exercise at the li
 
 ## IDS & Classes
 
+## [HTML Layout](https://dipaish.github.io/www23/layout)
+
 ## References: 
 - Mdn Web Docs 
 
