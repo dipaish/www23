@@ -568,9 +568,9 @@ Inspect element is one of the important feature used by web developers that is a
 It is now time to apply what you have learnt, please find the exercise at the link below: 
 ***[Exercise 2.1](https://docs.google.com/document/d/1_IY-a3XeXJL3pBhnzWuLIHw26pf3mgbT/edit?usp=share_link&ouid=111470325935077300698&rtpof=true&sd=true)***
 
-## Table
+## [Table](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
 
-## Form
+## [Form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form)
 
 ## IDS & Classes
 
