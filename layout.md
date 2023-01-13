@@ -93,6 +93,7 @@ A CSS grid is defined using the grid value of the display property; you can defi
 - Write css to create a template as in the image. Use semantic elements such as header, navbar, article, footer in your css. The content and some styles of the page are like you did above.
 
 **Image for the layout**
+
 ![Exercise 4: HTML Layout](assets/images/task4.png)
 
 ***References***
