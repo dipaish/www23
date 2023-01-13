@@ -20,7 +20,7 @@ You can add Bootstrap into your project via Content Delivery Network (CDN). It o
 
 **Follow the steps below to load Bootstrap:**
 
-1. **Load CSS:To load css, copy-paste the following**
+**1. Load CSS:To load css, copy-paste the following**
 
 ```html
 
@@ -28,7 +28,7 @@ You can add Bootstrap into your project via Content Delivery Network (CDN). It o
 
 ```
                         
-2. **Load JS:** As several components (jQuery, Popper.js) in bootstrap requires JavaScript to function, it is required to place the following ```<script>``` at the end of your pages before closing the ```<body>``` tag. **jQuery must come first, then Popper.js, and then JavaScript plugins.**
+**2. Load JS:** As several components (jQuery, Popper.js) in bootstrap requires JavaScript to function, it is required to place the following ```<script>``` at the end of your pages before closing the ```<body>``` tag. **jQuery must come first, then Popper.js, and then JavaScript plugins.**
 
 ```html
 
