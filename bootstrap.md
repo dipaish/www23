@@ -78,7 +78,7 @@ To change the default styling, you don't have to update the css file for bootstr
     
 ## Exercise 5: Building your website with Bootstrap
 
-After going through the above stepts, it is now time a build a website with Bootstrap.
+After going through the above stepts, it is now time to build a website with Bootstrap.
 
 **You are required to include the following items in your website:**
 - A navigation bar
