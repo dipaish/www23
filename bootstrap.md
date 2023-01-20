@@ -87,6 +87,4 @@ After going through the above stepts, it is now time to build a website with Boo
 - A navigation bar
 - Custom CSS
 - Page Content
-- A contact us form
-- A table
 - A footer

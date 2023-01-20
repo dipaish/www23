@@ -1,0 +1,30 @@
+/* Adding CSS to your Document
+Put the line of html code below in between the <head> & </head> section of your html document.
+<link rel="stylesheet" href="style.css" />
+*/
+
+/*Applying CSS to HTML Elements  for example you want to apply the css below to all paragraphs in your html page*/
+p{
+    background-color: rgb(231, 232, 206); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+/* You can apply same css for multiple elements by separating the selector with a comma. */
+
+h2, li {
+    color:red;
+}
+
+li {
+list-style-type:none;
+display: inline;
+margin:8px;
+background-color: antiquewhite;
+font-size: 25px;
+
+}
+
+header {
+    background-color: antiquewhite;
+}
