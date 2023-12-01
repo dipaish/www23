@@ -14,7 +14,7 @@ You need atleast some of the following tools to get started with web development
 
 ## Frontend
 
-The frontend of a web page is the graphical user interface to create elements and interact with the functionalities as seen by the end user. The frontend is used to ensure the visual aspect of a website is functional. **HTML** is the fundamental component of the web that defines the structure of a web page. ALong with HTML other technolgies such as **CSS and JavaScript** are used to implement the web page's apperances. The list of technolgies commonly used to develop the frontend of a web page are as below: 
+The frontend of a web page is the graphical user interface to create elements and interact with the functionalities as seen by the end user. The frontend is used to ensure the visual aspect of a website is functional. **HTML** is the fundamental component of the web that defines the structure of a web page. ALong with HTML other technologies such as **CSS and JavaScript** are used to implement the web page's appearances. The list of technologies commonly used to develop the frontend of a web page are as below: 
 - HTML
 - CSS
 - JavaScript
@@ -23,7 +23,7 @@ The frontend of a web page is the graphical user interface to create elements an
 
 ## Backend
 
-Backend development is the development that happens on the server side to ensure all functionalities on the client side (frontend) of the website are functional. The features implemented at the back end are utilized via the fronted and may include activities such as storing and updating data, creating APIs and libraries. The list of technolgies commonly used to develop the backend of a web page are as below: 
+Backend development is the development that happens on the server side to ensure all functionalities on the client side (frontend) of the website are functional. The features implemented at the back end are utilized via the fronted and may include activities such as storing and updating data, creating APIs and libraries. The list of technologies commonly used to develop the backend of a web page are as below: 
 
 - PHP
 - C++
@@ -33,7 +33,7 @@ Backend development is the development that happens on the server side to ensure
 - Backend frameworks such as Express, Django, Laravel, Spring etc. 
 
 ## What is HTML?
-**Hypertext Markup Language (HTML)** is the standard markup language for documents that are designed to be displayed in a web browser. HTML is not a programming language. It is a markup language that tells browser how to structure a web page. HTML is made up of sereis of **elements** such as a piece of text, a pragraph, list, table, links or forms and is saved with an extension ```.HTML```. 
+**Hypertext Markup Language (HTML)** is the standard markup language for documents that are designed to be displayed in a web browser. HTML is not a programming language. It is a markup language that tells browser how to structure a web page. HTML is made up of series of **elements** such as a piece of text, a paragraph, list, table, links or forms and is saved with an extension ```.HTML```. 
 
 ***Lets write the following line of text in a text file and save it as*** **file1.html** 
 
@@ -65,7 +65,7 @@ I am learning to develop web pages
 
 | Tag  | Description |
 | -------------| ------------- |
-| ``` <!DOCTYPE html> ```       | It is simply meant to act as links to a set of rules tht the HTML page had to follow. In current time, rarerly anyone cares about it however it is recommended to start with the DOCTYPE.  |
+| ``` <!DOCTYPE html> ```       | It is simply meant to act as links to a set of rules tht the HTML page had to follow. In current time, rarely anyone cares about it however it is recommended to start with the DOCTYPE.  |
 | ``` <html>  </html> ```        | This element simply wraps all the content on the entire page, and is sometimes known as the root element.  |
 | ``` <head></head> ```          | This element acts as a container for all the stuff (keywords, page description,css, character set declarations and more) you want to include on the HTML page, that isn't the content you are showing to your page's viewers.|
 | ``` <title></title> ```         | This element defines the title of your page, that appears in the browser tab and is used to describe the page when you bookmark/favorite it.  |
@@ -110,7 +110,7 @@ The whitespace includes space characters as well as line breaks. You can have lo
 ```
 
 ## Using Special Characters in HTML
-```<, > , " and &``` are special characters which are parts of HTML syntax, Therfore, when you need to use them in your html code you need to use the character equivalent as in the table below, to not have it interpreted as code.
+```<, > , " and &``` are special characters which are parts of HTML syntax, Therefore, when you need to use them in your html code you need to use the character equivalent as in the table below, to not have it interpreted as code.
 
 | HTML Character  | Equivalent Character Reference |
 | ------------- | ------------- |
@@ -122,7 +122,7 @@ The whitespace includes space characters as well as line breaks. You can have lo
 
 ## Comments in HTML
 
-It is a good idea to write comments whereever applicable. Comments are ignored by the browser and are invisible to the user.
+It is a good idea to write comments wherever applicable. Comments are ignored by the browser and are invisible to the user.
 ***To type comment in HTML:***
 ```html 
  <!-- comment asdsad asdasda -->
@@ -143,7 +143,7 @@ It is a good idea to write comments whereever applicable. Comments are ignored b
 <p>This is a paragraph.</p>
  ```
 ***Example of a Structure***
-![Example of a strucutre](assets/images/structure1.png)
+![Example of a structure](assets/images/structure1.png)
 
 ### Heading ###
 - Heading is commonly used in web pages to define the hierarchy of a web page. 
@@ -162,8 +162,8 @@ Example:
 - It starts with the ```<p>``` tag and ends with ```</p>``` tag. 
 Example: 
 ```html
-      <p> This is a pargraph. </p>
-      <p> This is another pargraph. </p>
+      <p> This is a paragraph. </p>
+      <p> This is another paragraph. </p>
 ```
 
 ### Lists: Unordered
