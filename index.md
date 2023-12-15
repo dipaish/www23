@@ -316,9 +316,8 @@ As per need, you may align your image either on the left or right side of your p
 
 ## Exercise 1:Text Formatting and page content
 
-Now, let's roll up our sleeves and put our knowledge into action. Head over to the provided [link](), and follow the instructions in the document to complete the assigned tasks.
+Now, let's roll up our sleeves and put our knowledge into action. Head over to this [link](https://gist.github.com/dipaish/82f0a116e4e4ad158e0505e377ca95de#file-exercise1-md) and follow the instructions in the document to complete the assigned tasks.
 
-<script src="https://gist.github.com/dipaish/82f0a116e4e4ad158e0505e377ca95de.js"></script>
 
 ## Debugging HTML 
 It is very likely that you commit errors when coding. Some of your code won't work at all or works a bit differently than what you have expected. HTML is not as complicated as other programming languages like Python or Php.The way browsers parse html document is more permissive than other languages. For instance, missing a semicolon in some programming language will mess up thing whereas in html, even if you write the elements incorrectly its going to product certain output.
