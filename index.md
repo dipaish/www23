@@ -1,7 +1,7 @@
 # Basics of HTML
 
 ## Tools for web development
-You need atleast some of the following tools to get started with web development. Depending on your development activity (frontend, backed or full stack), you will need some of the following tools. You will need at the minumm code or text editor and a browser.
+You need atleast some of the following tools to get started with web development. Depending on your development activity (frontend, backed or full stack), you will need some of the following tools. You will need at the minimum code or text editor and a browser.
 
 - **Code or Text editors:** Sublime Text, Notepad++, ***Visual Studio Code***
 - **Front-End Frameworks:**  Bootstrap, Semantic-UI, Material UI
@@ -18,7 +18,7 @@ The frontend of a web page is the graphical user interface to create elements an
 - HTML
 - CSS
 - JavaScript
-- Frontend frameworks such as Vue.js, React Framework, Angula Framework
+- Frontend frameworks such as Vue.js, React Framework, Angular Framework
 
 
 ## Backend
@@ -97,10 +97,10 @@ Example:
       <em>element 1</em> <em>element 2</em> <em>element 3</em>
 ```
 
-## Whitespaces in HTML
+## Whitespace in HTML
 The whitespace includes space characters as well as line breaks. You can have lots of whitespaces in your code but the HTML parser reduces space(s) or line breaks into a single space when rendering the HTML code. There is no reason to use more white spaces as it might affect the readability if it is not nicely formatted.
 ```html 
-<p> this is properly formatted in terms of whitespaces</p>
+<p> this is properly formatted in terms of whitespace</p>
     <p>this is 
       very                    random and is not effective enough when 
       reading 
@@ -314,6 +314,12 @@ As per need, you may align your image either on the left or right side of your p
  
 ```
 
+## Exercise 1:Text Formatting and page content
+
+Now, let's roll up our sleeves and put our knowledge into action. Head over to the provided [link](), and follow the instructions in the document to complete the assigned tasks.
+
+<script src="https://gist.github.com/dipaish/82f0a116e4e4ad158e0505e377ca95de.js"></script>
+
 ## Debugging HTML 
 It is very likely that you commit errors when coding. Some of your code won't work at all or works a bit differently than what you have expected. HTML is not as complicated as other programming languages like Python or Php.The way browsers parse html document is more permissive than other languages. For instance, missing a semicolon in some programming language will mess up thing whereas in html, even if you write the elements incorrectly its going to product certain output.
 
@@ -372,33 +378,6 @@ The HTML code below includes errors. As in  this case, since the html code is no
   </body>
 </html>
 ```
-## Exercise 1: Text Formatting and page content
-***Create a (root)folder anywhere in your PC/Cloud and name it as your firstname_lastname*** for your website(all individual exercises). Your website has different types of files: codes (html, css) and assets such as images.
-
-- Create a proper folder structure
-- Create an index.html
-
-***Example of a website folder structure***
-
-![Folder Structure](assets/images/str.png)
-
-***The page should look as below:***
-![Your Index Page for exercises](assets/images/ex1.png)
-
-- Use heading1 for "your name"
-- Use heading2 for "List of all Individual Exercises"
-- Exercise1 in the list should **link** to the file exercise1.html [Creating hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
-- Visit any website of your choice. Make an HTML page that has roughly the same content. You don't need to worry about formats, backgrounds or colors. The main objective is to use elements and tags correctly in HTML.You can ignore the menu bar,left or side bars. Follow the guidelines below:
-
-    - Start writing your html code. Save the file as exercise1.html and do all following tasks in the same file
-    - The HTML head is the contents of the ```<head>....</head>``` element. The content of the head element is not displayed to the user. It contains metadata about the document such as the author information, the title of the page, the metadata element such as the document's character encoding, custom icon to your page, link to the CSS and JavaScript file that are applied to the pages, primary language of the document, Your task is to include a proper title, the author information,set the character set as utf-8 and a brief description that is used on a search engine result pages.For this task, please consider reading this document: [What's in the head?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
-    - The top level heading of the page can be heading 1
-    - Put text pieces from the website in the  ```<p>``` tag
-    - Add a link to the website that you have selected for this task.
-    - Apply some text formatting such as bold, italic, underline to some part of your text.
-    - Add a paragraph that has an image that is aligned to the right side of the page. 
-    - Validate your html document by using [Markup Validation Service](https://validator.w3.org/) 
-    - Fix errors and warnings if there are any. 
 
 ## Mulitmedia in Web pages
 
