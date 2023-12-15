@@ -10,15 +10,15 @@ HTML5 has a number of new elements and attribute that can be utilized to build m
 - **New Input Types** such as ```<color> <email> <url>``` and attributes such as ```<required> <autocomplete> <min and max>```
 - **Canvas** HTML5 supports two dimensional drawing surface with the aid of JavaScript.
 - **Audio & Video** A video can be easily embedded on web pages without the need of third party plugins.
-- **Geolocation** It alows uses to share their physical location with web applications.
+- **Geolocation** It allows uses to share their physical location with web applications.
 - **Drag & Drop** It allows adding drag and drop feature into web pages.
 
-## Semantic Elemets in HTML
+## Semantic Elements in HTML
 Semantics describes the meaning of a piece of code in a human and machine-readable way. By just looking into the code you can easily know the purpose and role of the HTML element.
 
-Elements such as ```<header>, <footer> and <article>``` are **semantic** because they accurately describe the purpose of the element and also the content of the element. **Semantic elements** enhance the readability and accessibility of the HTML code whereas **non semantic elemenets** such as ```<div> <span>``` doest not describe any thing about the content.
+Elements such as ```<header>, <footer> and <article>``` are **semantic** because they accurately describe the purpose of the element and also the content of the element. **Semantic elements** enhance the readability and accessibility of the HTML code whereas **non semantic elements** such as ```<div> <span>``` doest not describe any thing about the content.
 
-### List of Semantic Elemets in HTML5
+### List of Semantic Elements in HTML5
 
 |**HTML Tag**| **Meaning of the Tag**| 
 |----------|-------------|
@@ -140,7 +140,7 @@ The viewport is the end user’s visible area of a web page which is different f
 ### Creating your own HTML5 page
 1. HTML5 code should begin with specifying the **DOCTYPE**
 2. The character encoding can be specified by using the meta tag
-> In Visual studio code, you can get the intial part of the html document by typing **html:5 or !**
+> In Visual studio code, you can get the initial part of the html document by typing **html:5 or !**
 
 ```html
     <!DOCTYPE html>
@@ -156,19 +156,19 @@ The viewport is the end user’s visible area of a web page which is different f
         </html>
 ```                
 3. Save the file with extension .html for example index.html
-> Note: Web browsers ignore spaces and carraige returns in your html code
+> Note: Web browsers ignore spaces and carriage returns in your html code
 
 ### Naming HTML Files
 - Select names that meaningfully describes the file's contents such as contactus.html, about.html.
-- Avoid spaces in your filesnames as browsers replace spaces in your filename with characters %20 that can confuse users
+- Avoid spaces in your filenames as browsers replace spaces in your filename with characters %20 that can confuse users
 
 ## GitHub Pages
 
 ***[Quickstart for GitHub Pages](https://docs.github.com/en/pages/quickstart)***
 
 ## Exercise 2
-It is now time to apply what you have learnt, please find the exercise at the link below: 
-***[Exercise 2](https://docs.google.com/document/d/1SHxa-WOg6c5n02uqgv_wHKih4ro73VVG/edit?usp=share_link&ouid=111470325935077300698&rtpof=true&sd=true)***
+Now, let's roll up our sleeves and put our knowledge into action. Head over to this [link](https://gist.github.com/dipaish/a2c1d846c79e518981e19271b9efa828#file-exercise2-md) and follow the instructions in the document to complete the assigned tasks. 
+
 
 ## Common Semantic Elements
 
