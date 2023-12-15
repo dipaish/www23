@@ -169,3 +169,79 @@ The viewport is the end user’s visible area of a web page which is different f
 ## Exercise 2
 It is now time to apply what you have learnt, please find the exercise at the link below: 
 ***[Exercise 2](https://docs.google.com/document/d/1SHxa-WOg6c5n02uqgv_wHKih4ro73VVG/edit?usp=share_link&ouid=111470325935077300698&rtpof=true&sd=true)***
+
+## Common Semantic Elements
+
+1. **`<header>`:**
+   - Use this tag to define the header of a document or section.
+   - Example:
+     ```html
+     <header>
+         <h1>Page Title</h1>
+         <p>Subtitle or tagline goes here</p>
+     </header>
+     ```
+
+2. **`<nav>`:**
+   - Use `<nav>` to define navigation links.
+   - Example:
+     ```html
+     <nav>
+         <ul>
+             <li><a href="#home">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#contact">Contact</a></li>
+         </ul>
+     </nav>
+     ```
+
+3. **`<main>`:**
+   - Wrap the main content of your page with the `<main>` tag.
+   - Example:
+     ```html
+     <main>
+         <!-- Your main content goes here -->
+     </main>
+     ```
+
+4. **`<article>`:**
+   - Use `<article>` to define a piece of content.
+   - Example:
+     ```html
+     <article>
+         <h2>Article Title</h2>
+         <p>Article content...</p>
+     </article>
+     ```
+
+5. **`<section>`:**
+   - Use `<section>` to define sections in a document.
+   - Example:
+     ```html
+     <section>
+         <h2>Section Title</h2>
+         <p>Section content...</p>
+     </section>
+     ```
+
+6. **`<aside>`:**
+   - Use `<aside>`for content related to but not directly part of the main content.
+   - Example:
+     ```html
+     <aside>
+         <h3>Related Links</h3>
+         <ul>
+             <li><a href="#link1">Link 1</a></li>
+             <li><a href="#link2">Link 2</a></li>
+         </ul>
+     </aside>
+     ```
+
+7. **`<footer>`:**
+   - Define the footer of a document or section using `<footer>`.
+   - Example:
+     ```html
+     <footer>
+         <p>&copy; 2023 Your Website</p>
+     </footer>
+     ```
