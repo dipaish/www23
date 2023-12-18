@@ -316,7 +316,9 @@ As per need, you may align your image either on the left or right side of your p
 
 ## Exercise 1:Text Formatting and page content
 
-Now, let's roll up our sleeves and put our knowledge into action. Head over to this [link](https://gist.github.com/dipaish/82f0a116e4e4ad158e0505e377ca95de#file-exercise1-md) and follow the instructions in the document to complete the assigned tasks.
+Now, let's roll up our sleeves and put our knowledge into action. 
+
+**Head over to this [link](https://gist.github.com/dipaish/82f0a116e4e4ad158e0505e377ca95de#file-exercise1-md) and follow the instructions in the document to complete the assigned tasks.**
 
 
 ## Debugging HTML 
@@ -377,8 +379,17 @@ The HTML code below includes errors. As in  this case, since the html code is no
   </body>
 </html>
 ```
+## Inspect Element
 
-## Mulitmedia in Web pages
+Inspect element is one of the important feature used by web developers that is available in most of the modern browsers such as Google Chrome or Firefox. It allows you to: 
+- test your HTML or CSS code and  see the changes in real time
+- check the if the page contains any errors or bugs on a web page.
+- modify or tweak page elements without doing the permanent change to your code.
+
+![Inspect Element](assets/images/inspect.png)
+
+
+## Multimedia in Web pages
 
 You have already embedded images in your web page. You can embed different types of multimedia such as a video and audio content, vector graphics and responsive images.
 
@@ -533,14 +544,7 @@ To mark up computer code in HTML you have multiple elements in html.
       64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms</samp></pre>
 ```
 
-## Inspect Element
 
-Inspect element is one of the important feature used by web developers that is available in most of the modern browsers such as Google Chrome or Firefox. It allows you to: 
-- test your HTML or CSS code and  see the changes in real time
-- check the if the page contains any errors or bugs on a web page.
-- modify or tweak page elements without doing the permanent change to your code.
-
-![Inspect Element](assets/images/inspect.png)
 
 ## Exercise 2.1
 It is now time to apply what you have learnt, please find the exercise at the link below: 
