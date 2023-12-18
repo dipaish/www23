@@ -127,4 +127,4 @@ To validate your CSS style sheet, you can use the CSS Validation service at this
 
 ## Exercise 4
 It is now time to apply what you have learnt, please find the exercise at the link below: 
-***[Exercise 4](https://docs.google.com/document/d/1_Jjq6BvFO_p34vSD2S0kGBkt-irFea4L/edit?usp=share_link&ouid=111470325935077300698&rtpof=true&sd=true)***
+***[Exercise 4](https://gist.github.com/dipaish/38189bec1ab8482b7eaf0b9cce1243b4)***
