@@ -552,8 +552,6 @@ It is now time to apply what you have learnt, please find the exercise at the li
 
 ## [Form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form)
 
-## IDS & Classes
-
 ## [HTML Layout](https://dipaish.github.io/www23/layout)
 
 ## References: 
