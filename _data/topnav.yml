@@ -9,6 +9,8 @@ topnav:
       url: /gpages
     - title: CSS
       url: /css
+    - title: Layout
+      url: /layout
     - title: Bootstrap
       url: /bootstrap
    
