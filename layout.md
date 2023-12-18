@@ -1,6 +1,6 @@
 ## Buidling a layout for HTML pages
 
-We can use **CSS** to create page layouts and control the position of our html elemets. There are several layout techniques however we will go through some of them
+We can use **CSS** to create page layouts and control the position of our html elements. There are several layout techniques however we will go through some of them
 
 ### Normal Flow
 
@@ -10,25 +10,28 @@ You don't do anything for the layout, the normal flow will take the html element
 
 ![Normal Layout](assets/images/nlayout.png)
 
-### Flexbox
+### Flexbox (Need updates)
 
-The flexbox make things easier to put html elemets either in a row or a column. Flexbox is one dimensional that is we can deal with the layout in one dimensiona at a time. We can use flexbox to create flexible and responsive layout.
+Flexbox (Flexible Box) is a versatile layout tool that allows you to effortlessly manage the arrangement of elements on your web pages.It makes things easier to put html elements either in a row or a column. Flexbox is one dimensional that is we can deal with the layout in one dimension at a time. We can use flexbox to create flexible and responsive layout.
 
 ***To use flex box:***
 
-1.**Flex Container/Elements:** We should first define a **flex container** or specify what **elements** are used as flexible boxes.
+1.**Create Flex Container :** We should first define a **flex container** or specify what **elements** are used as flexible boxes. A flex container is created by 
+setting the `display` property to `flex` or `inline-flex`.
 
 ```html
 display: flex;
 ```
+2. **Add Flex Items :**  Once a flex container is created, you can start to add items.  You can arrange these items both horizontally and vertically using various Flexbox properties.
 
-2. **Columns or Rows:** Flexbox is one dimensional. The property flex-direction specifies which direction the flexbox children are in. By defualt it is set to row.
+
+2. **Columns or Rows:** Flexbox is one dimensional. The property flex-direction specifies which direction the flexbox children are in. By default it is set to row.
 
 ```html
 flex-direction: column;
 ```
 
-3. **Wrapping:** The equal width and height of flex boxes can result in the child items overflowing their container wich eventually breaks the layout. This can be fixed by adding the following to your flex container.
+3. **Wrapping:** The equal width and height of flex boxes can result in the child items overflowing their container which eventually breaks the layout. This can be fixed by adding the following to your flex container.
 
 ```html
 flex-wrap: wrap;
@@ -73,7 +76,7 @@ Get HTML code at this link: [Required File](https://dipaish.github.io/www2020/fl
 - [Layout 2](https://dipaish.github.io/www2020/images/layout2.PNG)
 
 ***Floats***
-The float property was introduced to allow web developers to implement simple layouts involving an image floating inside a column of text, with the text wrapping around the left or right of it. The kind of thing you might get in a newspaper layout. Floats are commonly used to create entier website layouts.
+The float property was introduced to allow web developers to implement simple layouts involving an image floating inside a column of text, with the text wrapping around the left or right of it. The kind of thing you might get in a newspaper layout. Floats are commonly used to create entire website layouts.
 
 **Example of a flexbox layout:**
 
@@ -87,14 +90,10 @@ A CSS grid is defined using the grid value of the display property; you can defi
 - https://developer.mozilla.org/en-US/docs/Glossary/Grid
 - https://css-tricks.com/snippets/css/complete-guide-grid
 
-## Exercise 4: HTML Layout
+## Exercise 5: HTML Layout with Flex
 
-- Create a new html page and name it as exercise4.html.
-- Write css to create a template as in the image. Use semantic elements such as header, navbar, article, footer in your css. The content and some styles of the page are like you did above.
-
-**Image for the layout**
-
-![Exercise 4: HTML Layout](assets/images/task4.png)
+It is now time to apply what you have learnt, please find the exercise at the link below: 
+***[Exercise 5](https://gist.github.com/dipaish/40c3aca884119cc3bd0a05f76a27343a)***
 
 ***References***
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
