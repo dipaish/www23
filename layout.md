@@ -18,11 +18,11 @@ Flexbox (Flexible Box) is a versatile layout tool that allows you to effortlessl
 
 1. **Create Flex Container :** We should first define a **flex container** or specify what **elements** are used as flexible boxes. A flex container is created by 
 setting the `display` property to `flex` or `inline-flex`. The container is the parent element that holds the items whereas items are the child elements inside the container.
+
   ```html
-    display: flex;  <!-- It creates a block-level flex container. The flex container takes up the full width of its parent container  -->
-    <!-- or -->
-    display: inline-flex;  <!-- It creates an inline-level flex container. The flex container only takes up as much width as necessary, allowing other elements to be on the same line.  -->
-    
+  display: flex;  <!-- It creates a block-level flex container. The flex container takes up the full width of its parent container  -->
+  <!-- or -->
+  display: inline-flex;  <!-- It creates an inline-level flex container. The flex container only takes up as much width as necessary, allowing other elements to be on the same line.  -->
   ```
        
 2. **Add Flex Items:**  Once a flex container is created, you can start to add items.  You can arrange these items both horizontally and vertically using various Flexbox properties.
