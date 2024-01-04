@@ -16,7 +16,9 @@ Flexbox (Flexible Box) is a versatile layout tool that allows you to effortlessl
 
 ***To use flex box:***
 
-1. **Create Flex Container :** We should first define a **flex container** or specify what **elements** are used as flexible boxes. A flex container is created by 
+Step 1. **Create Flex Container :**
+
+We should first define a **flex container** or specify what **elements** are used as flexible boxes. A flex container is created by 
 setting the `display` property to `flex` or `inline-flex`. The container is the parent element that holds the items whereas items are the child elements inside the container.
 
   ```html
@@ -25,26 +27,42 @@ setting the `display` property to `flex` or `inline-flex`. The container is the 
   display: inline-flex;  <!-- It creates an inline-level flex container. The flex container only takes up as much width as necessary, allowing other elements to be on the same line.  -->
   ```
        
-2. **Add Flex Items:**  Once a flex container is created, you can start to add items.  You can arrange these items both horizontally and vertically using various Flexbox properties.
+Step 2. **Add Flex Items:** 
+
+ Once a flex container is created, you can start to add items.  You can arrange these items both horizontally and vertically using various Flexbox properties.
 
 
 #### Commonly used Flexbox properties 
 
-**flex-direction** Flexbox is one dimensional. The property **flex-direction** specifies which direction the Flexbox children are in. By default it is set to row. The flex-direction values can be: row | row-reverse | column | column-reverse
-Example: 
+**flex-direction** 
+
+Flexbox is one dimensional. The property **flex-direction** specifies which direction the Flexbox children are in. By default it is set to row. 
+
+The flex-direction ***values can be: row | row-reverse | column | column-reverse***
+
+**Example:**
 ```html
 flex-direction: column;
 ```
 
-**flex-wrap:** The equal width and height of flex boxes can result in the child items overflowing their container which eventually breaks the layout. You can control whether flex items are forced onto one line or can wrap onto multiple lines. The flex-wrap values can be: nowrap | wrap | wrap-reverse
-Example: 
+**flex-wrap:** 
+
+The equal width and height of flex boxes can result in the child items overflowing their container which eventually breaks the layout. You can control whether flex items are forced onto one line or can wrap onto multiple lines. 
+
+The flex-wrap ***values can be: nowrap | wrap | wrap-reverse***
+
+**Example:** 
 ```html
 flex-wrap: wrap;
 ```
 
-**flex:**  The flex property specifies the ability for a flex item to grow or shrink. It is actually a shorthand property that combines three individual properties: flex-grow, flex-shrink, and flex-basis. The flex values can be: 0 (default value which means the flex item will not grow) or any positive integer that the item will grow proportionally to the other flex items based on the value assigned.
+**flex:**  
 
-Examples 
+The flex property specifies the ability for a flex item to grow or shrink. It is actually a shorthand property that combines three individual properties: flex-grow, flex-shrink, and flex-basis. 
+
+The flex ***values can be: 0 (default value which means the flex item will not grow) or any positive integer that the item will grow proportionally to the other flex items based on the value assigned.***
+
+**Examples** 
 ```html
 <!-- It sets a specific initial size to 200 px for a flex item while allowing it to shrink if necessary. In simple sentence, the flex items will start with an initial size of 200 pixels, and if there's not enough space, they will shrink proportionally. -->
 flex: 200px
@@ -58,7 +76,6 @@ flex: 200px
 .flex-item {
     flex: 2;
 }
-
 
 <!-- The item will not grow but can shrink if necessary.-->
 .flex-item {
@@ -76,10 +93,11 @@ Get HTML code at this link: [Required File](https://dipaish.github.io/www2020/fl
 - [Layout 2](https://dipaish.github.io/www2020/images/layout2.PNG)
 
 
-***Floats***
+### Floats
+
 The float property was introduced to allow web developers to implement simple layouts involving an image floating inside a column of text, with the text wrapping around the left or right of it. The kind of thing you might get in a newspaper layout. Floats are commonly used to create entire website layouts.
 
-**Example of a Flexbox layout:**
+**Example of a Float layout:**
 
 [Link to the Example file ](https://dipaish.github.io/www2020/floatexample.html)
 
