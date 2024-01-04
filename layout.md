@@ -29,7 +29,7 @@ setting the `display` property to `flex` or `inline-flex`. The container is the 
 
 #### Commonly used Flexbox properties 
 
-**flex-direction** Flexbox is one dimensional. The property **flex-direction** specifies which direction the flexbox children are in. By default it is set to row. The flex-direction values can be: row | row-reverse | column | column-reverse
+**flex-direction** Flexbox is one dimensional. The property **flex-direction** specifies which direction the Flexbox children are in. By default it is set to row. The flex-direction values can be: row | row-reverse | column | column-reverse
 Example: 
 ```html
 flex-direction: column;
