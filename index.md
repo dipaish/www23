@@ -388,6 +388,7 @@ Inspect element is one of the important feature used by web developers that is a
 
 ![Inspect Element](assets/images/inspect.png)
 
+[Read More - Chrome DevTools](https://developer.chrome.com/docs/devtools/overview)
 
 ## Multimedia in Web pages
 
