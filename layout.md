@@ -83,7 +83,14 @@ flex: 200px
 
 ```
 
-**Example of a Flexbox layout:** [Link to the Example file](https://dipaish.github.io/www2020/flexbox.html)
+**Example of a Flexbox layout:**
+
+- [Example 1: Basic Horizontal Flex Container](https://dipaish.github.io/www23/examples/flexboxEx1.html)
+- [Example 2: Vertical Flex Container](https://dipaish.github.io/www23/examples/flexboxEx2.html)
+- [Example 3: Justify Content and Align Items](https://dipaish.github.io/www23/examples/flexboxEx3.html)
+- [Example 4: Responsive Flex Layout](https://dipaish.github.io/www23/examples/flexboxEx4.html)
+- [Example 5: Nesting Flex Containers](https://dipaish.github.io/www23/examples/flexboxEx5.html)
+ 
 
 **Let's work together and get the following layouts**
 Get HTML code at this link: [Required File](https://dipaish.github.io/www2020/flex_box_in_class22.html)
