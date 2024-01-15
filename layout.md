@@ -37,7 +37,7 @@ setting the `display` property to `flex` or `inline-flex`. The container is the 
 
 Flexbox is one dimensional. The property **flex-direction** specifies which direction the Flexbox children are in. By default it is set to row. 
 
-The flex-direction ***values can be: row | row-reverse | column | column-reverse***
+The flex-direction values can be: ***row | row-reverse | column | column-reverse***
 
 **Example:**
 ```html
@@ -48,7 +48,7 @@ flex-direction: column;
 
 The equal width and height of flex boxes can result in the child items overflowing their container which eventually breaks the layout. You can control whether flex items are forced onto one line or can wrap onto multiple lines. 
 
-The flex-wrap ***values can be: nowrap | wrap | wrap-reverse***
+The flex-wrap values can be: ***nowrap | wrap | wrap-reverse***
 
 **Example:** 
 ```html
@@ -59,7 +59,7 @@ flex-wrap: wrap;
 
 The flex property specifies the ability for a flex item to grow or shrink. It is actually a shorthand property that combines three individual properties: flex-grow, flex-shrink, and flex-basis. 
 
-The flex ***values can be: 0 (default value which means the flex item will not grow) or any positive integer that the item will grow proportionally to the other flex items based on the value assigned.***
+The flex values can be: ***0 (default value which means the flex item will not grow) or any positive integer that the item will grow proportionally to the other flex items based on the value assigned.***
 
 **Examples** 
 ```html
