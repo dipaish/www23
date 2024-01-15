@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example 5: Nesting Flex Containers</title>
+  <style>
+   
+   /* Apply flexbox layout to the body element */
+body {
+  display: flex;
+
+  /* Horizontally center the content within the flex container */
+  justify-content: center;
+}
+ /* Apply flex layout to the main content using semantic 'main' element */
+    main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    /* Styling for the outer flex container represented by semantic 'section' element */
+    section.outer-flex {
+      display: flex;
+    }
+
+    /* Styling for the inner flex container represented by semantic 'article' element */
+    article.inner-flex {
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Styling for each item represented by semantic 'div' element */
+    div.item {
+      border: 1px solid #333;
+      padding: 10px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Main content container using semantic 'main' element -->
+  <main>
+    <!-- Outer flex container represented by semantic 'section' element -->
+    <section class="outer-flex">
+      <!-- Items in the outer flex container represented by semantic 'div' elements -->
+      <div class="item">Outer Item 1</div>
+      <div class="item">Outer Item 2</div>
+      
+      <!-- Inner flex container represented by semantic 'article' element -->
+      <article class="inner-flex">
+        <!-- Items in the inner flex container represented by semantic 'div' elements -->
+        <div class="item">Inner Item 1</div>
+        <div class="item">Inner Item 2</div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

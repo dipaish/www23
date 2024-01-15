@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example 4: Responsive Flex Layout</title>
+  <style>
+    /* Apply flex layout to the main content using semantic 'main' element */
+    main {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    /* Styling for each flexible item represented by semantic 'article' element */
+    article {
+
+    /* 
+   Flex shorthand property: 
+   flex-grow: 1 - The flex item can grow and will take up available space.
+   flex-shrink: 0 - The flex item won't shrink if there's not enough space.
+   flex-basis: 200px - The initial size of the flex item is set to 200 pixels.
+    */
+
+      flex: 1 0 200px; /* Flex grow, flex shrink, flex basis */
+      border: 1px solid #333;
+      padding: 10px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Main content container using semantic 'main' element -->
+  <main>
+    <!-- Individual flexible items represented by semantic 'article' elements -->
+    <article>Item 1</article>
+    <article>Item 2</article>
+    <article>Item 3</article>
+    <article>Item 4</article>
+    <article>Item 5</article>
+  </main>
+</body>
+</html>
