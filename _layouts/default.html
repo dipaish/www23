@@ -2,27 +2,6 @@
 <html>
 <head>
     {% include head.html %}
-<style>
-    .fixed-column {
-        /* Default styles for larger screens */
-        position: fixed;
-        top: 0; /* You can adjust the top position as needed */
-        bottom: 0; /* You can adjust the bottom position as needed */
-         /* You can adjust the width as needed */
-        background-color: #fff; /* Optional: Set a background color */
-        overflow-y: auto; /* Optional: Add scrollbar if content overflows vertically */
-    }
-    
-    /* Media query to override styles for smaller screens (e.g., mobile devices) */
-    @media (max-width: 767px) {
-        .fixed-column {
-            position: static; /* or any other style suitable for smaller screens */
-            width: 100%; /* Adjust the width for mobile devices */
-            border-right: none; /* Remove border for smaller screens */
-            overflow-y: visible; /* Allow content to overflow vertically */
-        }
-    }
-</style>
     <script>
         $(document).ready(function() {
             // Initialize navgoco with default options
@@ -103,7 +82,7 @@
         {% assign content_col_size = "col-md-12" %}
         {% unless page.hide_sidebar %}
             <!-- Sidebar Column -->
-            <div class="col-md-3 fixed-column">
+            <div class="col-md-3">
             <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
 <script>
     $( document ).ready(function() {
