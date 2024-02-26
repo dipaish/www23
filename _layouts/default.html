@@ -8,7 +8,6 @@
         position: fixed;
         top: 0; /* You can adjust the top position as needed */
         bottom: 0; /* You can adjust the bottom position as needed */
-        /*left: 0;  You can adjust the left position as needed */
          /* You can adjust the width as needed */
         background-color: #fff; /* Optional: Set a background color */
         overflow-y: auto; /* Optional: Add scrollbar if content overflows vertically */
@@ -129,7 +128,7 @@
         {% endunless %}
 
         <!-- Content Column -->
-        <div class="col-md-9">
+        <div class="{{content_col_size}}">
             {{content}}
         </div>
     <!-- /.row -->
