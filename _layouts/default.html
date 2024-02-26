@@ -1,7 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    {% include head.html %}
+    {% include head.html %}<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style> 
+    body {
+    margin: 0; 
+    /* Google font */
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
+
+}
+    .fixed-column {
+    /* Default styles for larger screens */
+    position: sticky;
+    top: 0; /* You can adjust the top position as needed */
+    bottom: 0; /* You can adjust the bottom position as needed */
+    left: 0; /* You can adjust the left position as needed */
+    overflow-y: auto; /* Optional: Add scrollbar if content overflows vertically */
+}
+
+/* Media query to override styles for smaller screens (e.g., mobile devices) */
+@media (max-width: 767px) {
+    .fixed-column {
+        position: static; /* or any other style suitable for smaller screens */
+        width: 100%; /* Adjust the width for mobile devices */
+        border-right: none; /* Remove border for smaller screens */
+        overflow-y: visible; /* Allow content to overflow vertically */
+    }
+}
+    
+    </style>
     <script>
         $(document).ready(function() {
             // Initialize navgoco with default options
@@ -82,7 +112,7 @@
         {% assign content_col_size = "col-md-12" %}
         {% unless page.hide_sidebar %}
             <!-- Sidebar Column -->
-            <div class="col-md-3">
+            <div class="col-md-3 fixed-column">
             <!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
 <script>
     $( document ).ready(function() {
