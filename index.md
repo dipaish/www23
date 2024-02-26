@@ -10,7 +10,6 @@ You need atleast some of the following tools to get started with web development
 - **Git Clients:**  Github, Github Desktop
 - **Web Design & Prototyping Tools:**  Figma, Protooie, Framer
 - **Image Editing:**  Adobe Photoshop, Gimp
-![Development Environment](assets/images/devenvironment.png)
 
 ## Frontend
 
