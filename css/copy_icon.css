@@ -1,7 +1,7 @@
 .copy-button {
     position: absolute; /* Position the button relative to its container */
-    top: 5px; /* Add a small margin from the top */
-    right: 5px; /* Add a small margin from the right */
+    top: 0px; /* Add a small margin from the top */
+    right: 0px; /* Add a small margin from the right */
     z-index: 1; /* Ensure the button appears above other content */
     background-color: transparent; /* Make the background transparent */
     color: #7300f0; /* Set button text color */
