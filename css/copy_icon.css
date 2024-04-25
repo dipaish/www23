@@ -1,12 +1,17 @@
 .copy-button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    background: none;
-    color:#7300f0;
-    border: none;
-    font-size: 1em;
-    padding: 0em;
-    cursor: pointer;
-  }
+    position: absolute; /* Position the button relative to its container */
+    top: 5px; /* Add a small margin from the top */
+    right: 5px; /* Add a small margin from the right */
+    z-index: 1; /* Ensure the button appears above other content */
+    background-color: transparent; /* Make the background transparent */
+    color: #7300f0; /* Set button text color */
+    border: none; /* Remove button border */
+    font-size: 1.2em; /* Increase button font size for better visibility */
+    padding: 0.5em; /* Add padding for better clickability */
+    cursor: pointer; /* Set cursor to pointer to indicate interactivity */
+    transition: color 0.3s ease; /* Add smooth transition for color change */
+}
+
+.copy-button:hover {
+    color: #5c00a3; /* Change button text color on hover for visual feedback */
+}
