@@ -40,7 +40,7 @@ Backend development is the development that happens on the server side to ensure
 I am learning to develop web pages
 ```
 
-*** Now lets use the paragraph tag by modifying*** **file1.html**
+***Now lets use the paragraph tag by modifying*** **file1.html**
 ```html
 <p>I am learning to develop web pages.</p>
 ```
